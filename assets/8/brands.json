@@ -1,0 +1,375 @@
+{
+  "version": 1,
+  "assetSet": "8",
+  "generatedAt": "2026-05-23",
+  "cdnBaseUrl": "https://bild8.de",
+  "rightsNotice": "Use only with a documented software8 agreement and the applicable rights holder's consent. See /LICENSE.md and /KUNDENHINWEIS.md.",
+  "usageRule": "Each id, tile, and color represents one brand or company. Do not mix multiple ids as one page theme unless the applicable brand system explicitly allows it.",
+  "sizes": [32, 192, 526],
+  "brands": [
+    {
+      "id": "a8",
+      "letter": "a",
+      "displayName": "A8",
+      "domain": null,
+      "primaryColor": "#E91E46",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/a8.svg",
+        "png32": "/assets/8/png_32/a8_32.png",
+        "png192": "/assets/8/png_192/a8_192.png",
+        "png526": "/assets/8/png_526/a8_526.png"
+      }
+    },
+    {
+      "id": "b8",
+      "letter": "b",
+      "displayName": "Bild8",
+      "domain": "bild8.de",
+      "primaryColor": "#F4511E",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/b8.svg",
+        "png32": "/assets/8/png_32/b8_32.png",
+        "png192": "/assets/8/png_192/b8_192.png",
+        "png526": "/assets/8/png_526/b8_526.png"
+      }
+    },
+    {
+      "id": "c8",
+      "letter": "c",
+      "displayName": "C8",
+      "domain": null,
+      "primaryColor": "#FB8C00",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/c8.svg",
+        "png32": "/assets/8/png_32/c8_32.png",
+        "png192": "/assets/8/png_192/c8_192.png",
+        "png526": "/assets/8/png_526/c8_526.png"
+      }
+    },
+    {
+      "id": "d8",
+      "letter": "d",
+      "displayName": "D8",
+      "domain": null,
+      "primaryColor": "#F9A825",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/d8.svg",
+        "png32": "/assets/8/png_32/d8_32.png",
+        "png192": "/assets/8/png_192/d8_192.png",
+        "png526": "/assets/8/png_526/d8_526.png"
+      }
+    },
+    {
+      "id": "e8",
+      "letter": "e",
+      "displayName": "E8",
+      "domain": null,
+      "primaryColor": "#C0A000",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/e8.svg",
+        "png32": "/assets/8/png_32/e8_32.png",
+        "png192": "/assets/8/png_192/e8_192.png",
+        "png526": "/assets/8/png_526/e8_526.png"
+      }
+    },
+    {
+      "id": "f8",
+      "letter": "f",
+      "displayName": "Funktion8",
+      "domain": "funktion8.de",
+      "primaryColor": "#5A6469",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/f8.svg",
+        "png32": "/assets/8/png_32/f8_32.png",
+        "png192": "/assets/8/png_192/f8_192.png",
+        "png526": "/assets/8/png_526/f8_526.png"
+      }
+    },
+    {
+      "id": "g8",
+      "letter": "g",
+      "displayName": "G8",
+      "domain": null,
+      "primaryColor": "#43A047",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/g8.svg",
+        "png32": "/assets/8/png_32/g8_32.png",
+        "png192": "/assets/8/png_192/g8_192.png",
+        "png526": "/assets/8/png_526/g8_526.png"
+      }
+    },
+    {
+      "id": "h8",
+      "letter": "h",
+      "displayName": "H8",
+      "domain": null,
+      "primaryColor": "#00A86B",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/h8.svg",
+        "png32": "/assets/8/png_32/h8_32.png",
+        "png192": "/assets/8/png_192/h8_192.png",
+        "png526": "/assets/8/png_526/h8_526.png"
+      }
+    },
+    {
+      "id": "i8",
+      "letter": "i",
+      "displayName": "I8",
+      "domain": null,
+      "primaryColor": "#009688",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/i8.svg",
+        "png32": "/assets/8/png_32/i8_32.png",
+        "png192": "/assets/8/png_192/i8_192.png",
+        "png526": "/assets/8/png_526/i8_526.png"
+      }
+    },
+    {
+      "id": "j8",
+      "letter": "j",
+      "displayName": "J8",
+      "domain": null,
+      "primaryColor": "#00ACC1",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/j8.svg",
+        "png32": "/assets/8/png_32/j8_32.png",
+        "png192": "/assets/8/png_192/j8_192.png",
+        "png526": "/assets/8/png_526/j8_526.png"
+      }
+    },
+    {
+      "id": "k8",
+      "letter": "k",
+      "displayName": "K8",
+      "domain": null,
+      "primaryColor": "#039BE5",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/k8.svg",
+        "png32": "/assets/8/png_32/k8_32.png",
+        "png192": "/assets/8/png_192/k8_192.png",
+        "png526": "/assets/8/png_526/k8_526.png"
+      }
+    },
+    {
+      "id": "l8",
+      "letter": "l",
+      "displayName": "L8",
+      "domain": null,
+      "primaryColor": "#1E88E5",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/l8.svg",
+        "png32": "/assets/8/png_32/l8_32.png",
+        "png192": "/assets/8/png_192/l8_192.png",
+        "png526": "/assets/8/png_526/l8_526.png"
+      }
+    },
+    {
+      "id": "m8",
+      "letter": "m",
+      "displayName": "M8",
+      "domain": null,
+      "primaryColor": "#3F51B5",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/m8.svg",
+        "png32": "/assets/8/png_32/m8_32.png",
+        "png192": "/assets/8/png_192/m8_192.png",
+        "png526": "/assets/8/png_526/m8_526.png"
+      }
+    },
+    {
+      "id": "n8",
+      "letter": "n",
+      "displayName": "Notariat8",
+      "domain": "notariat8.de",
+      "primaryColor": "#5E35B1",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/n8.svg",
+        "png32": "/assets/8/png_32/n8_32.png",
+        "png192": "/assets/8/png_192/n8_192.png",
+        "png526": "/assets/8/png_526/n8_526.png"
+      }
+    },
+    {
+      "id": "o8",
+      "letter": "o",
+      "displayName": "O8",
+      "domain": null,
+      "primaryColor": "#4CAF65",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/o8.svg",
+        "png32": "/assets/8/png_32/o8_32.png",
+        "png192": "/assets/8/png_192/o8_192.png",
+        "png526": "/assets/8/png_526/o8_526.png"
+      }
+    },
+    {
+      "id": "p8",
+      "letter": "p",
+      "displayName": "P8",
+      "domain": null,
+      "primaryColor": "#AD0B5A",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/p8.svg",
+        "png32": "/assets/8/png_32/p8_32.png",
+        "png192": "/assets/8/png_192/p8_192.png",
+        "png526": "/assets/8/png_526/p8_526.png"
+      }
+    },
+    {
+      "id": "q8",
+      "letter": "q",
+      "displayName": "Q8",
+      "domain": null,
+      "primaryColor": "#C2185B",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/q8.svg",
+        "png32": "/assets/8/png_32/q8_32.png",
+        "png192": "/assets/8/png_192/q8_192.png",
+        "png526": "/assets/8/png_526/q8_526.png"
+      }
+    },
+    {
+      "id": "r8",
+      "letter": "r",
+      "displayName": "R8",
+      "domain": null,
+      "primaryColor": "#D81B60",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/r8.svg",
+        "png32": "/assets/8/png_32/r8_32.png",
+        "png192": "/assets/8/png_192/r8_192.png",
+        "png526": "/assets/8/png_526/r8_526.png"
+      }
+    },
+    {
+      "id": "s8",
+      "letter": "s",
+      "displayName": "S8",
+      "domain": null,
+      "primaryColor": "#19747C",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/s8.svg",
+        "png32": "/assets/8/png_32/s8_32.png",
+        "png192": "/assets/8/png_192/s8_192.png",
+        "png526": "/assets/8/png_526/s8_526.png"
+      }
+    },
+    {
+      "id": "t8",
+      "letter": "t",
+      "displayName": "T8",
+      "domain": null,
+      "primaryColor": "#00897B",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/t8.svg",
+        "png32": "/assets/8/png_32/t8_32.png",
+        "png192": "/assets/8/png_192/t8_192.png",
+        "png526": "/assets/8/png_526/t8_526.png"
+      }
+    },
+    {
+      "id": "u8",
+      "letter": "u",
+      "displayName": "U8",
+      "domain": null,
+      "primaryColor": "#7CB342",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/u8.svg",
+        "png32": "/assets/8/png_32/u8_32.png",
+        "png192": "/assets/8/png_192/u8_192.png",
+        "png526": "/assets/8/png_526/u8_526.png"
+      }
+    },
+    {
+      "id": "v8",
+      "letter": "v",
+      "displayName": "V8",
+      "domain": null,
+      "primaryColor": "#6D4C41",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/v8.svg",
+        "png32": "/assets/8/png_32/v8_32.png",
+        "png192": "/assets/8/png_192/v8_192.png",
+        "png526": "/assets/8/png_526/v8_526.png"
+      }
+    },
+    {
+      "id": "w8",
+      "letter": "w",
+      "displayName": "W8",
+      "domain": null,
+      "primaryColor": "#795548",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/w8.svg",
+        "png32": "/assets/8/png_32/w8_32.png",
+        "png192": "/assets/8/png_192/w8_192.png",
+        "png526": "/assets/8/png_526/w8_526.png"
+      }
+    },
+    {
+      "id": "x8",
+      "letter": "x",
+      "displayName": "X8",
+      "domain": null,
+      "primaryColor": "#455A64",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/x8.svg",
+        "png32": "/assets/8/png_32/x8_32.png",
+        "png192": "/assets/8/png_192/x8_192.png",
+        "png526": "/assets/8/png_526/x8_526.png"
+      }
+    },
+    {
+      "id": "y8",
+      "letter": "y",
+      "displayName": "Y8",
+      "domain": null,
+      "primaryColor": "#607D8B",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/y8.svg",
+        "png32": "/assets/8/png_32/y8_32.png",
+        "png192": "/assets/8/png_192/y8_192.png",
+        "png526": "/assets/8/png_526/y8_526.png"
+      }
+    },
+    {
+      "id": "z8",
+      "letter": "z",
+      "displayName": "Z8",
+      "domain": null,
+      "primaryColor": "#8E24AA",
+      "agreementRequired": true,
+      "assets": {
+        "svg": "/assets/8/svg/z8.svg",
+        "png32": "/assets/8/png_32/z8_32.png",
+        "png192": "/assets/8/png_192/z8_192.png",
+        "png526": "/assets/8/png_526/z8_526.png"
+      }
+    }
+  ]
+}
