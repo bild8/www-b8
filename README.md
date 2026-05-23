@@ -1,5 +1,21 @@
 # b8 Assets
 
+## Repository Style Guide
+
+Dieses Repository dient als Style-Referenz fuer bild8/software8 Repositories,
+die mit GitHub Pages veroeffentlicht werden.
+
+Als gemeinsames GitHub-Pages-Theme wird
+[pages-themes/cayman](https://github.com/pages-themes/cayman) verwendet. Andere
+Repositories sollen dieselbe Basis-Konfiguration nutzen:
+
+```yml
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+show_downloads: false
+```
+
 This repository is not open source. All rights are reserved.
 
 The logos, marks, icons, names, and other brand assets in this repository belong
