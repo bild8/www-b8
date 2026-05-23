@@ -28,6 +28,10 @@ Any use requires prior written permission from the applicable rights holder. See
 Customer-facing legal context is summarized in
 [KUNDENHINWEIS.md](KUNDENHINWEIS.md).
 
+The `a8` to `z8` brand asset catalog is documented in
+[assets/8/brands.json](assets/8/brands.json) and
+[assets/8/README.md](assets/8/README.md).
+
 ## Hinweis auf Deutsch
 
 Dieses Repository ist nicht Open Source. Alle Rechte bleiben vorbehalten.
@@ -42,3 +46,7 @@ Rechteinhabers. Der vollstaendige Hinweis steht in [LICENSE.md](LICENSE.md).
 
 Eine kurze rechtliche Einschaetzung fuer Kunden steht in
 [KUNDENHINWEIS.md](KUNDENHINWEIS.md).
+
+Der Marken- und Asset-Katalog fuer `a8` bis `z8` steht in
+[assets/8/brands.json](assets/8/brands.json) und
+[assets/8/README.md](assets/8/README.md).
