@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bild8.de/assets/8/icon-spec.schema.json",
+  "title": "Bild8 8 Icon Asset Specification",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "kind",
+    "assetSet",
+    "font",
+    "geometry",
+    "icons"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "kind": {
+      "const": "bild8.assetPrompt.iconSet"
+    },
+    "assetSet": {
+      "const": "8-brand-icons"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "canonicalManifest": {
+      "type": "string"
+    },
+    "font": {
+      "type": "object"
+    },
+    "canvas": {
+      "type": "object"
+    },
+    "geometry": {
+      "type": "object"
+    },
+    "icons": {
+      "type": "array",
+      "minItems": 26,
+      "maxItems": 26,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "letter",
+          "primaryColor",
+          "artifacts"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z]8$"
+          },
+          "letter": {
+            "type": "string",
+            "pattern": "^[a-z]$"
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "domain": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "primaryColor": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}$"
+          },
+          "letterLayoutRule": {
+            "type": "string"
+          },
+          "artifacts": {
+            "type": "object",
+            "required": [
+              "svg",
+              "png32",
+              "png192",
+              "png526"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

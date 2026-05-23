@@ -1,7 +1,15 @@
 # 8 Asset Generation
 
-This document records how the `a8` to `z8` brand assets were generated. Use it
-as the prompt and quality checklist for future changes.
+The canonical prompt for these icons is machine-readable:
+
+- [icon-spec.v1.json](icon-spec.v1.json) describes the icon geometry, font
+  rules, output dimensions, file paths, and SHA-256 checksums for every icon and
+  every generated resolution.
+- [icon-spec.schema.json](icon-spec.schema.json) defines the JSON shape.
+- [VISUAL-CONTROL.md](VISUAL-CONTROL.md) embeds the current SVG and PNG outputs
+  for visual review.
+
+The text below is only a human-readable summary of the machine prompt.
 
 ## Rebuild Prompt
 
