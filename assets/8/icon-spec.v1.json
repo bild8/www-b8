@@ -1,0 +1,1515 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "bild8.assetPrompt.iconSet",
+  "assetSet": "8-brand-icons",
+  "generatedFromCommit": "9848a055b8973ada8f682c9960c1bf5d0e5e42bb",
+  "generatedAt": "2026-05-23",
+  "canonicalManifest": "brands.json",
+  "machineContract": {
+    "purpose": "Pixel-perfect regeneration and verification of the a8-z8 icon assets.",
+    "regenerationRule": "Generate SVGs from the geometry and brand data, then render PNGs from those SVGs. A regenerated artifact is identical only when dimensions and sha256 values match this file."
+  },
+  "references": [
+    {
+      "path": "f8_grau_groß.png",
+      "bytes": 57834,
+      "sha256": "ba2d40822ce66ca40740e225f5ccf414114f05ca822a7e4f3af5014992ed47c7",
+      "width": 1578,
+      "height": 1630
+    },
+    {
+      "path": "f8_grau.png",
+      "bytes": 15971,
+      "sha256": "d3a3f46962173620d3f3d58172d9d30aa7a359c0f9f884a7d231455e772d32f9",
+      "width": 526,
+      "height": 543
+    },
+    {
+      "path": "f8_grau_192x192.png",
+      "bytes": 7673,
+      "sha256": "11cd4d5cef9301130ea619737a15774c7c6a750de1505a2e721c4a51dae2ea00",
+      "width": 186,
+      "height": 192
+    },
+    {
+      "path": "o_klein.png",
+      "bytes": 17544,
+      "sha256": "12e0ac5b0aa4d85c46820599f434013d2cb3139bd0362e89900d57ad2c131bf5",
+      "width": 526,
+      "height": 543
+    },
+    {
+      "path": "p_klein.png",
+      "bytes": 17610,
+      "sha256": "270d44c37ab52b014d47652f5c7fb0541b8f112be0ea5103194d53fde050e2e8",
+      "width": 526,
+      "height": 543
+    },
+    {
+      "path": "s_klein.png",
+      "bytes": 17703,
+      "sha256": "c0db51144739a665c2f330ebc4b46e2693d47302343d266ef75a0fdcdc50fe8a",
+      "width": 526,
+      "height": 543
+    },
+    {
+      "path": "a8Color.svg",
+      "bytes": 5612,
+      "sha256": "58edcd74d153997f3ab43084a575d31d1c62de0f753f7071d778a8eb875d3cb0",
+      "width": null,
+      "height": null,
+      "viewBox": [
+        0,
+        0,
+        192,
+        192
+      ]
+    },
+    {
+      "path": "a8Color@192.png",
+      "bytes": 6998,
+      "sha256": "70270966a6f2650cb96666564bd1c70830d0ee298bdab1a1332b87edd9aa3f49",
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "font": {
+    "family": "Hanken Grotesk",
+    "weight": 900,
+    "style": "normal",
+    "svgFontStack": "'Hanken Grotesk', 'Helvetica Neue', Arial, Helvetica, 'Liberation Sans', 'Nimbus Sans', sans-serif",
+    "pngRenderFontSource": "@fontsource/hanken-grotesk",
+    "pngRenderFontFile": "hanken-grotesk-latin-900-normal.woff2",
+    "svgTextPolicy": "Keep glyphs as <text>; do not convert text to font paths."
+  },
+  "canvas": {
+    "svgViewBox": [
+      0,
+      0,
+      192,
+      192
+    ],
+    "rasterOutputs": [
+      {
+        "id": "png32",
+        "width": 32,
+        "height": 32,
+        "directory": "png_32"
+      },
+      {
+        "id": "png192",
+        "width": 192,
+        "height": 192,
+        "directory": "png_192"
+      },
+      {
+        "id": "png526",
+        "width": 526,
+        "height": 526,
+        "directory": "png_526"
+      }
+    ],
+    "preview": {
+      "path": "preview_a-z8_colored.png",
+      "width": 1540,
+      "height": 880,
+      "columns": 7,
+      "rows": 4,
+      "tile": 192,
+      "gap": 30,
+      "margin": 15,
+      "bytes": 161946,
+      "sha256": "938fe63a4cc1b6955ddb4dc3d8ef5c1c71948526b8a1fcfa6a008f320c124ba2"
+    }
+  },
+  "geometry": {
+    "background": {
+      "element": "rect",
+      "x": 1,
+      "y": 1,
+      "width": 190,
+      "height": 190,
+      "rx": 18,
+      "ry": 18,
+      "fillFrom": "brands[].primaryColor"
+    },
+    "divider": {
+      "stroke": "#ffffff",
+      "strokeWidth": 5,
+      "strokeLinecap": "round",
+      "paths": {
+        "leftHorizontal": "M0 76 H94",
+        "verticalCurve": "M94 160 C94 115 94 82 94 76 C94 54 101 31 124 25",
+        "rightHorizontal": "M143 76 H166"
+      },
+      "rule": "The horizontal divider must be split around the 8 so no white line is visible inside the counters of the 8."
+    },
+    "eight": {
+      "shadow": {
+        "value": "8",
+        "x": 134.5,
+        "y": 126,
+        "fontSize": 98,
+        "fontWeight": 900,
+        "fill": "#233039",
+        "opacity": 0.7,
+        "transform": "translate(134.5 87) scale(0.92 1.18) translate(-134.5 -87)"
+      },
+      "foreground": {
+        "value": "8",
+        "x": 126.5,
+        "y": 121,
+        "fontSize": 98,
+        "fontWeight": 900,
+        "fill": "#ffffff",
+        "transform": "translate(126.5 84) scale(0.92 1.18) translate(-126.5 -84)"
+      }
+    },
+    "letterLayoutRules": [
+      {
+        "id": "ascender",
+        "letters": [
+          "b",
+          "d",
+          "f",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l"
+        ],
+        "foreground": {
+          "x": 56,
+          "y": 146,
+          "fontSize": 76
+        },
+        "shadow": {
+          "x": 63,
+          "y": 151,
+          "fontSize": 76,
+          "fill": "#233039",
+          "opacity": 0.7
+        }
+      },
+      {
+        "id": "descender",
+        "letters": [
+          "g",
+          "p",
+          "q",
+          "y"
+        ],
+        "foreground": {
+          "x": 56,
+          "y": 132,
+          "fontSize": 76
+        },
+        "shadow": {
+          "x": 63,
+          "y": 137,
+          "fontSize": 76,
+          "fill": "#233039",
+          "opacity": 0.7
+        }
+      },
+      {
+        "id": "t",
+        "letters": [
+          "t"
+        ],
+        "foreground": {
+          "x": 56,
+          "y": 141,
+          "fontSize": 76
+        },
+        "shadow": {
+          "x": 63,
+          "y": 146,
+          "fontSize": 76,
+          "fill": "#233039",
+          "opacity": 0.7
+        }
+      },
+      {
+        "id": "compact",
+        "letters": [
+          "a",
+          "c",
+          "e",
+          "m",
+          "n",
+          "o",
+          "r",
+          "s",
+          "u",
+          "v",
+          "w",
+          "x",
+          "z"
+        ],
+        "foreground": {
+          "x": 56,
+          "y": 130,
+          "fontSize": 70
+        },
+        "shadow": {
+          "x": 63,
+          "y": 135,
+          "fontSize": 70,
+          "fill": "#233039",
+          "opacity": 0.7
+        }
+      }
+    ]
+  },
+  "icons": [
+    {
+      "id": "a8",
+      "letter": "a",
+      "name": "A8",
+      "domain": null,
+      "primaryColor": "#E91E46",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/a8.svg",
+          "bytes": 1548,
+          "sha256": "fd97a26dae9ccc73db5d0dfe106d300726e78e772ef50ede8d9373eb0067deef",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/a8.svg"
+        },
+        "png32": {
+          "path": "png_32/a8_32.png",
+          "bytes": 1139,
+          "sha256": "c5ee4913ab047d042a56b89818dcd2f09ee2ac4b93c7958d1a0fb2ee84f016b2",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/a8_32.png"
+        },
+        "png192": {
+          "path": "png_192/a8_192.png",
+          "bytes": 7469,
+          "sha256": "b791a858a6b3b1deaef01f8ab4dbc06c7d3c1ba9d8364d70b9dcb548991dae8f",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/a8_192.png"
+        },
+        "png526": {
+          "path": "png_526/a8_526.png",
+          "bytes": 21855,
+          "sha256": "a6c52ee44ef09e4d2de9fef50d7a19ca79cad7df011469d186c8cce695667471",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/a8_526.png"
+        }
+      }
+    },
+    {
+      "id": "b8",
+      "letter": "b",
+      "name": "Bild8",
+      "domain": "bild8.de",
+      "primaryColor": "#F4511E",
+      "letterLayoutRule": "ascender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/b8.svg",
+          "bytes": 1548,
+          "sha256": "1f32f635c63247f8af4252b7cab43a2f36640f941810fd11db000f9fff609235",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/b8.svg"
+        },
+        "png32": {
+          "path": "png_32/b8_32.png",
+          "bytes": 1125,
+          "sha256": "74203ee143ccd9f44ff84761e7a1d1f6d31b09db64334ecd88e2b9b70bb4b820",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/b8_32.png"
+        },
+        "png192": {
+          "path": "png_192/b8_192.png",
+          "bytes": 7431,
+          "sha256": "a7bf098e93bc741d4239ce1981363825d3de62a0c8595b063a2cac8f27b18d04",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/b8_192.png"
+        },
+        "png526": {
+          "path": "png_526/b8_526.png",
+          "bytes": 21868,
+          "sha256": "392775ff633b2231661ea5ae7e1c72fa81171bb6fd0caf672ad8e2fa58980c8d",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/b8_526.png"
+        }
+      }
+    },
+    {
+      "id": "c8",
+      "letter": "c",
+      "name": "C8",
+      "domain": null,
+      "primaryColor": "#FB8C00",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/c8.svg",
+          "bytes": 1548,
+          "sha256": "acb2379662a7222d4fa32cbc5cbb46c7f36bef6001cbeffafe2462c57d11653f",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/c8.svg"
+        },
+        "png32": {
+          "path": "png_32/c8_32.png",
+          "bytes": 1096,
+          "sha256": "75707aaef20f51e3f7e2aaf6a32b25049eb75bcde1a67fdd1a6fe82a89fe2e34",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/c8_32.png"
+        },
+        "png192": {
+          "path": "png_192/c8_192.png",
+          "bytes": 7254,
+          "sha256": "30f167e5758af4433a6cb6c7ee9a5a2ddc106a278a0629997b3c5addb2736508",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/c8_192.png"
+        },
+        "png526": {
+          "path": "png_526/c8_526.png",
+          "bytes": 21201,
+          "sha256": "58dc85ea2431f2e5b11ef9cc6d5d34b128c37868757b9365b41d0b5c668d4097",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/c8_526.png"
+        }
+      }
+    },
+    {
+      "id": "d8",
+      "letter": "d",
+      "name": "D8",
+      "domain": null,
+      "primaryColor": "#F9A825",
+      "letterLayoutRule": "ascender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/d8.svg",
+          "bytes": 1548,
+          "sha256": "cdb510e2807c91fa5166a15d8a6d5a4936890fff376543e467c2bdecba24f55b",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/d8.svg"
+        },
+        "png32": {
+          "path": "png_32/d8_32.png",
+          "bytes": 1109,
+          "sha256": "464da2643631d11825f29bbdcf1ec34121485b5550bd6a9976ea0bacb9d82e4f",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/d8_32.png"
+        },
+        "png192": {
+          "path": "png_192/d8_192.png",
+          "bytes": 7208,
+          "sha256": "c0b5de7716029a39e3c86a3436af545f458c2e4a2f315071b81746dcb348cfc9",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/d8_192.png"
+        },
+        "png526": {
+          "path": "png_526/d8_526.png",
+          "bytes": 20730,
+          "sha256": "dc02673a9b9c94860ef5b274b2487cd8ffaeadfb3fa6a982e853065345b3173e",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/d8_526.png"
+        }
+      }
+    },
+    {
+      "id": "e8",
+      "letter": "e",
+      "name": "E8",
+      "domain": null,
+      "primaryColor": "#C0A000",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/e8.svg",
+          "bytes": 1548,
+          "sha256": "51b43e380d4d0a96154179f6be7f0a059381b3807cdcfbad2ba27657168e4043",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/e8.svg"
+        },
+        "png32": {
+          "path": "png_32/e8_32.png",
+          "bytes": 1120,
+          "sha256": "eb089136345b6c6a64b1395285ac8db62889457e5c36027d541958d016ad3ae4",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/e8_32.png"
+        },
+        "png192": {
+          "path": "png_192/e8_192.png",
+          "bytes": 7335,
+          "sha256": "c65b705ec401abf81b458e0cbf2ef82592861db8689dfe3646eb5e2148c45710",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/e8_192.png"
+        },
+        "png526": {
+          "path": "png_526/e8_526.png",
+          "bytes": 21463,
+          "sha256": "2711630c4efd9f5a65e2946021d43d38f3d0ae9f65b54bc735c488e88bed31fb",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/e8_526.png"
+        }
+      }
+    },
+    {
+      "id": "f8",
+      "letter": "f",
+      "name": "Funktion8",
+      "domain": "funktion8.de",
+      "primaryColor": "#5A6469",
+      "letterLayoutRule": "ascender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/f8.svg",
+          "bytes": 1548,
+          "sha256": "6f5d17b56c8d3d96d4ec520b83488354212de85c15acb446764da00d60ac445b",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/f8.svg"
+        },
+        "png32": {
+          "path": "png_32/f8_32.png",
+          "bytes": 1045,
+          "sha256": "8bba0a69469083e35716410630e3240dd2588e10cfa696af279233faf09c0821",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/f8_32.png"
+        },
+        "png192": {
+          "path": "png_192/f8_192.png",
+          "bytes": 6020,
+          "sha256": "93c148833f6c704936f6f6f920362a12106aa6358320d3067fb2ec6b9dfe4e27",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/f8_192.png"
+        },
+        "png526": {
+          "path": "png_526/f8_526.png",
+          "bytes": 17766,
+          "sha256": "41eb3467b7808b64a33bda2a3196cf1e298bb4975fa6c15f38a796f6fc32cf55",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/f8_526.png"
+        }
+      }
+    },
+    {
+      "id": "g8",
+      "letter": "g",
+      "name": "G8",
+      "domain": null,
+      "primaryColor": "#43A047",
+      "letterLayoutRule": "descender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/g8.svg",
+          "bytes": 1548,
+          "sha256": "14ad66a0c971061d49713c1aa93ee3783c0a7bd37a4962e61821b6ef40c1a359",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/g8.svg"
+        },
+        "png32": {
+          "path": "png_32/g8_32.png",
+          "bytes": 1212,
+          "sha256": "5e43c0b19405be11ba43c5aa163f730cad554af27ca559135426fb2c38350d54",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/g8_32.png"
+        },
+        "png192": {
+          "path": "png_192/g8_192.png",
+          "bytes": 7879,
+          "sha256": "a894b106710d2e90fefe118a5c1ef66a622dadcf58a6d4b0762de4e5dc5b99cd",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/g8_192.png"
+        },
+        "png526": {
+          "path": "png_526/g8_526.png",
+          "bytes": 22929,
+          "sha256": "a729b2c73cbd19a3383c1b41c6a8dc466d9abb5b8707fa00677aadc2480c3faf",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/g8_526.png"
+        }
+      }
+    },
+    {
+      "id": "h8",
+      "letter": "h",
+      "name": "H8",
+      "domain": null,
+      "primaryColor": "#00A86B",
+      "letterLayoutRule": "ascender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/h8.svg",
+          "bytes": 1548,
+          "sha256": "72760b9e20e563513be3005329b28cc1ed9fa915774570b7bfd7d662f30858c7",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/h8.svg"
+        },
+        "png32": {
+          "path": "png_32/h8_32.png",
+          "bytes": 1101,
+          "sha256": "811fb07bddf9329a1f5f7195c610cd37a026db71014bb2f1ffbc32b1160b8557",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/h8_32.png"
+        },
+        "png192": {
+          "path": "png_192/h8_192.png",
+          "bytes": 6698,
+          "sha256": "44a275b6dc6ecc8d4fb152f3aacf27d332eb2ea16faa6dec674ac507fbde9f69",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/h8_192.png"
+        },
+        "png526": {
+          "path": "png_526/h8_526.png",
+          "bytes": 19519,
+          "sha256": "d347a69db35dca00cd07d742340ee92b489eee619472b10423f07b63a3f5f173",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/h8_526.png"
+        }
+      }
+    },
+    {
+      "id": "i8",
+      "letter": "i",
+      "name": "I8",
+      "domain": null,
+      "primaryColor": "#009688",
+      "letterLayoutRule": "ascender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/i8.svg",
+          "bytes": 1548,
+          "sha256": "3345aa6ed1a6bece53e64cdb2e4154d53ece98afaab97480957af8aed6647e44",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/i8.svg"
+        },
+        "png32": {
+          "path": "png_32/i8_32.png",
+          "bytes": 1011,
+          "sha256": "f9cb2ce7ef5de9000ebee478dc373a74a28efec165c62315f89e1856d633e1b4",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/i8_32.png"
+        },
+        "png192": {
+          "path": "png_192/i8_192.png",
+          "bytes": 6010,
+          "sha256": "ed8032393b802b12d286b599756160e7e5b03ec6c4626b58e805c4abfe0795d5",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/i8_192.png"
+        },
+        "png526": {
+          "path": "png_526/i8_526.png",
+          "bytes": 17275,
+          "sha256": "7cf357b3a6e09de1da9a6df64e9cbe54aeec488b479f3aeec26743592bfb70b7",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/i8_526.png"
+        }
+      }
+    },
+    {
+      "id": "j8",
+      "letter": "j",
+      "name": "J8",
+      "domain": null,
+      "primaryColor": "#00ACC1",
+      "letterLayoutRule": "ascender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/j8.svg",
+          "bytes": 1548,
+          "sha256": "70109d1408f47ef20953ea2f24b94a99b69621ef1c17e461def940c62c16b754",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/j8.svg"
+        },
+        "png32": {
+          "path": "png_32/j8_32.png",
+          "bytes": 1032,
+          "sha256": "860530da671dcbd59816f5b32d1d951447e22c7952915adc869188c47396b5b6",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/j8_32.png"
+        },
+        "png192": {
+          "path": "png_192/j8_192.png",
+          "bytes": 6234,
+          "sha256": "e1ef06993a15b9e7d7a1d588eddb18003e4a2866147164261b36d75089d6e3d5",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/j8_192.png"
+        },
+        "png526": {
+          "path": "png_526/j8_526.png",
+          "bytes": 17914,
+          "sha256": "0c60deb119a8e90409663632cf746d8d15a4daab466f64ab03054d531fce456e",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/j8_526.png"
+        }
+      }
+    },
+    {
+      "id": "k8",
+      "letter": "k",
+      "name": "K8",
+      "domain": null,
+      "primaryColor": "#039BE5",
+      "letterLayoutRule": "ascender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/k8.svg",
+          "bytes": 1548,
+          "sha256": "f4fe7ca3632134e9659186194284fbccfe1b6afa0092e5150a205a623e599d86",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/k8.svg"
+        },
+        "png32": {
+          "path": "png_32/k8_32.png",
+          "bytes": 1148,
+          "sha256": "e889a1c4345c0caa8bd12043758841b210d13e0ffb22a4c9ca69504583e83d05",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/k8_32.png"
+        },
+        "png192": {
+          "path": "png_192/k8_192.png",
+          "bytes": 7112,
+          "sha256": "6563d2126780bd0a8d2c026e0873b51bc111f8be154ab62468f07df67fa2dd05",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/k8_192.png"
+        },
+        "png526": {
+          "path": "png_526/k8_526.png",
+          "bytes": 20625,
+          "sha256": "2099784f9dc2a240e9d4c8ebe349e4259d720c1c2eb73f0a67f28bf8dec8908c",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/k8_526.png"
+        }
+      }
+    },
+    {
+      "id": "l8",
+      "letter": "l",
+      "name": "L8",
+      "domain": null,
+      "primaryColor": "#1E88E5",
+      "letterLayoutRule": "ascender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/l8.svg",
+          "bytes": 1548,
+          "sha256": "b66282e255b7f7dc10db4b692881d42d180bbc7b5147f3f4e7163a4544235230",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/l8.svg"
+        },
+        "png32": {
+          "path": "png_32/l8_32.png",
+          "bytes": 952,
+          "sha256": "a2bf5a65801b38d58b27d8681c960a99f07a20e92cc7c50161fb7f2d3b614e49",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/l8_32.png"
+        },
+        "png192": {
+          "path": "png_192/l8_192.png",
+          "bytes": 5934,
+          "sha256": "72170c2d8936d6d649d99de157eb0e194a626bf8cce087e11fb3cbc8022c745c",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/l8_192.png"
+        },
+        "png526": {
+          "path": "png_526/l8_526.png",
+          "bytes": 17258,
+          "sha256": "ce7628b2ad449aa9eb96474f3121238fd613a2d3e2bf3520657258e4fee59016",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/l8_526.png"
+        }
+      }
+    },
+    {
+      "id": "m8",
+      "letter": "m",
+      "name": "M8",
+      "domain": null,
+      "primaryColor": "#3F51B5",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/m8.svg",
+          "bytes": 1548,
+          "sha256": "44a5986f0c3432f200a580286bf5a2d8582fdfa30b59158bff73dbfbfcfcc0e6",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/m8.svg"
+        },
+        "png32": {
+          "path": "png_32/m8_32.png",
+          "bytes": 1120,
+          "sha256": "bf37077102720adc36729526c1336070d6adbfb7960bc89fb28d9695e7cd9fe8",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/m8_32.png"
+        },
+        "png192": {
+          "path": "png_192/m8_192.png",
+          "bytes": 7037,
+          "sha256": "c5b44f23b64595dc799be68e66bae6d9cd4eda8d600c659083a9e541c84302fd",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/m8_192.png"
+        },
+        "png526": {
+          "path": "png_526/m8_526.png",
+          "bytes": 20697,
+          "sha256": "5c7000c83a60b6132854ce3f3b2cc10afb88a70b61c340f28c7b583563b72831",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/m8_526.png"
+        }
+      }
+    },
+    {
+      "id": "n8",
+      "letter": "n",
+      "name": "Notariat8",
+      "domain": "notariat8.de",
+      "primaryColor": "#5E35B1",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/n8.svg",
+          "bytes": 1548,
+          "sha256": "8216425840e417a87f05b855dd828ddd2e69e67beb1f160d4462f37a3fed6c7d",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/n8.svg"
+        },
+        "png32": {
+          "path": "png_32/n8_32.png",
+          "bytes": 1069,
+          "sha256": "edb98a0b7a5a0d81431a1d1197003cdf527e9fb4867a0b71c0bea98c715856f7",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/n8_32.png"
+        },
+        "png192": {
+          "path": "png_192/n8_192.png",
+          "bytes": 6616,
+          "sha256": "adca7858904af657331f281c04437409925556eb3ac3c454d1ca834d67c6ce49",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/n8_192.png"
+        },
+        "png526": {
+          "path": "png_526/n8_526.png",
+          "bytes": 19510,
+          "sha256": "1501dd71103efd2c6afae3ac37deba38198e302897d7ff0d420a371f6f7da45e",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/n8_526.png"
+        }
+      }
+    },
+    {
+      "id": "o8",
+      "letter": "o",
+      "name": "O8",
+      "domain": null,
+      "primaryColor": "#4CAF65",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/o8.svg",
+          "bytes": 1548,
+          "sha256": "7495b3393c53353e30a70cfa1d1467ea7835eeb451022b13d7e29d464259f44a",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/o8.svg"
+        },
+        "png32": {
+          "path": "png_32/o8_32.png",
+          "bytes": 1136,
+          "sha256": "cd34f6f38badf3d10f47a9cd054f9bd4a869f19b9edc1102c1353b73e8c84b36",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/o8_32.png"
+        },
+        "png192": {
+          "path": "png_192/o8_192.png",
+          "bytes": 7511,
+          "sha256": "48183798f44a5713d2e2bd6e4a0aaa22176ff180266364480f426e2cbd828880",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/o8_192.png"
+        },
+        "png526": {
+          "path": "png_526/o8_526.png",
+          "bytes": 22139,
+          "sha256": "bf6355588513fb10d60afb271d6eec2d25ff7bd796d3a389179fbaa4f05ee1c0",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/o8_526.png"
+        }
+      }
+    },
+    {
+      "id": "p8",
+      "letter": "p",
+      "name": "P8",
+      "domain": null,
+      "primaryColor": "#AD0B5A",
+      "letterLayoutRule": "descender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/p8.svg",
+          "bytes": 1548,
+          "sha256": "8789e308f6e5b92332da39ec26991eb24f3eadda5a2be0ff5f56ab6eec72a466",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/p8.svg"
+        },
+        "png32": {
+          "path": "png_32/p8_32.png",
+          "bytes": 1144,
+          "sha256": "3074d4b3f30a138a91d696878d098140115250c965d66782152b56de5ec495eb",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/p8_32.png"
+        },
+        "png192": {
+          "path": "png_192/p8_192.png",
+          "bytes": 7522,
+          "sha256": "eb0472ac1a293abeed7563a4111d9b2c5b93e4702199a6c047b87e980879bda0",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/p8_192.png"
+        },
+        "png526": {
+          "path": "png_526/p8_526.png",
+          "bytes": 22039,
+          "sha256": "16612e0287185298f85a64a5c03ceee403612bbdebe9e6ebf6c646b33deddbd2",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/p8_526.png"
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "letter": "q",
+      "name": "Q8",
+      "domain": null,
+      "primaryColor": "#C2185B",
+      "letterLayoutRule": "descender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/q8.svg",
+          "bytes": 1548,
+          "sha256": "59d92abb4e56621b90f06cde44d80423cf8affb8ecdeed64105d6edcd8749cfd",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/q8.svg"
+        },
+        "png32": {
+          "path": "png_32/q8_32.png",
+          "bytes": 1138,
+          "sha256": "5df9f2ffc55a7234117b6834962cfd55328c0b5f07b8412500e4bd6d4a02042f",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/q8_32.png"
+        },
+        "png192": {
+          "path": "png_192/q8_192.png",
+          "bytes": 7264,
+          "sha256": "688cbe233f7d371077b97cd924a3aa964f9e2966d05bdd934545583ddd47d3ac",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/q8_192.png"
+        },
+        "png526": {
+          "path": "png_526/q8_526.png",
+          "bytes": 21120,
+          "sha256": "41f9ad5189b570b48145cd16617c2d4936333bd421cb0d27848e3094124bf33e",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/q8_526.png"
+        }
+      }
+    },
+    {
+      "id": "r8",
+      "letter": "r",
+      "name": "R8",
+      "domain": null,
+      "primaryColor": "#D81B60",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/r8.svg",
+          "bytes": 1548,
+          "sha256": "82576794deb64bb51f7c3f87b55773eec1be73b6dad491ab6a544b70c57a9be1",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/r8.svg"
+        },
+        "png32": {
+          "path": "png_32/r8_32.png",
+          "bytes": 1038,
+          "sha256": "1ace52fd18098d8aaf6598f38857a29e018f7eed210acb2e3cae65478a3e73e4",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/r8_32.png"
+        },
+        "png192": {
+          "path": "png_192/r8_192.png",
+          "bytes": 6414,
+          "sha256": "962d5fafc4225b3c00fa7666d185d00415fbc776c3ced811ab49c5d64e8961ca",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/r8_192.png"
+        },
+        "png526": {
+          "path": "png_526/r8_526.png",
+          "bytes": 18602,
+          "sha256": "18527b428ec9e9ca28ca3591939c4d4c08d902c5194660d857b06610866569ea",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/r8_526.png"
+        }
+      }
+    },
+    {
+      "id": "s8",
+      "letter": "s",
+      "name": "S8",
+      "domain": null,
+      "primaryColor": "#19747C",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/s8.svg",
+          "bytes": 1548,
+          "sha256": "6742846fc43d6535d0b402265828619988fb21b867a72b0ba36793f841159660",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/s8.svg"
+        },
+        "png32": {
+          "path": "png_32/s8_32.png",
+          "bytes": 1146,
+          "sha256": "5a152e4a1b4cad5d8cb8ab5f1d9f5b287b636d69370f338f7f8f2c26ae8e4a7f",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/s8_32.png"
+        },
+        "png192": {
+          "path": "png_192/s8_192.png",
+          "bytes": 7660,
+          "sha256": "0c37bd72db2640f03ba27407e0ada84dd8597af0201c481b2de669c67483a797",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/s8_192.png"
+        },
+        "png526": {
+          "path": "png_526/s8_526.png",
+          "bytes": 22734,
+          "sha256": "be1e337bab1d6ca21142a81e88a870335cb70d9f5f97e16ea46ef234ff2cbfbd",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/s8_526.png"
+        }
+      }
+    },
+    {
+      "id": "t8",
+      "letter": "t",
+      "name": "T8",
+      "domain": null,
+      "primaryColor": "#00897B",
+      "letterLayoutRule": "t",
+      "artifacts": {
+        "svg": {
+          "path": "svg/t8.svg",
+          "bytes": 1548,
+          "sha256": "8b24e53ce1c373b453dd196c5392b0180a0f47895100da867118da907d123298",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/t8.svg"
+        },
+        "png32": {
+          "path": "png_32/t8_32.png",
+          "bytes": 1101,
+          "sha256": "3f83ce5c442d42fc1d689b353870d21373655e4c89e6238bcbfc0551db9da2fd",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/t8_32.png"
+        },
+        "png192": {
+          "path": "png_192/t8_192.png",
+          "bytes": 6476,
+          "sha256": "79b982f8e1d39521928a4075101a7bc5a902a9c4d17519614e91c3c94459f0b8",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/t8_192.png"
+        },
+        "png526": {
+          "path": "png_526/t8_526.png",
+          "bytes": 18569,
+          "sha256": "4070c2360df9c5ad3da94088195e854b678f59c3b2debb7b695e2ca9ba7b46b1",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/t8_526.png"
+        }
+      }
+    },
+    {
+      "id": "u8",
+      "letter": "u",
+      "name": "U8",
+      "domain": null,
+      "primaryColor": "#7CB342",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/u8.svg",
+          "bytes": 1548,
+          "sha256": "d4e170599db8139d4902b2311082304d874182b818bc437f24c59baa66ebf476",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/u8.svg"
+        },
+        "png32": {
+          "path": "png_32/u8_32.png",
+          "bytes": 1066,
+          "sha256": "87f88b6ddb828c4e8a1fb9d01670e9fbe51d886dd84017c84f90d00e8c959a08",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/u8_32.png"
+        },
+        "png192": {
+          "path": "png_192/u8_192.png",
+          "bytes": 6603,
+          "sha256": "a804def01b84dfee225cf2a0e0474f6767074f5d94e4f974706cd9c7cb288b7c",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/u8_192.png"
+        },
+        "png526": {
+          "path": "png_526/u8_526.png",
+          "bytes": 19306,
+          "sha256": "7cde0f8491455a268389e6b58fe20ed1017f645dba4067c0e5a7985fd2664cd7",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/u8_526.png"
+        }
+      }
+    },
+    {
+      "id": "v8",
+      "letter": "v",
+      "name": "V8",
+      "domain": null,
+      "primaryColor": "#6D4C41",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/v8.svg",
+          "bytes": 1548,
+          "sha256": "f76efc000f740aeaddd1b8062760896b75e344f1b9cfa73dd97b187de981a03e",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/v8.svg"
+        },
+        "png32": {
+          "path": "png_32/v8_32.png",
+          "bytes": 1108,
+          "sha256": "05054fec770fd471edbd876650f5d541c09045d33d45cc0387ffc9285d587738",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/v8_32.png"
+        },
+        "png192": {
+          "path": "png_192/v8_192.png",
+          "bytes": 7033,
+          "sha256": "f1bb8b65b52f1010d3833cd389c86ff97069dd290c248a0f3ef605909894ce4f",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/v8_192.png"
+        },
+        "png526": {
+          "path": "png_526/v8_526.png",
+          "bytes": 20469,
+          "sha256": "14b0bfd6f97984ff30ffcb5919a0cd84108fce13f63e7b64bba68361eb96d3b3",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/v8_526.png"
+        }
+      }
+    },
+    {
+      "id": "w8",
+      "letter": "w",
+      "name": "W8",
+      "domain": null,
+      "primaryColor": "#795548",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/w8.svg",
+          "bytes": 1548,
+          "sha256": "624fe49c500f6e2eb2b4ba9269d04b3e9022d30115ac9606abe7b114e261c37e",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/w8.svg"
+        },
+        "png32": {
+          "path": "png_32/w8_32.png",
+          "bytes": 1177,
+          "sha256": "c402cded3742b7b4dbcd81a16ba4c7a580c4e2b8f95b44138428ad3f30f8eef4",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/w8_32.png"
+        },
+        "png192": {
+          "path": "png_192/w8_192.png",
+          "bytes": 7632,
+          "sha256": "9ebb995413db6a0153721c4c126ce916d2a66baafcfbea0408c94b96cc0894e3",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/w8_192.png"
+        },
+        "png526": {
+          "path": "png_526/w8_526.png",
+          "bytes": 22494,
+          "sha256": "3f7c067cd3c1f5953c5faddd9b7db447cd0099f47c523da49d3e013205f914d2",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/w8_526.png"
+        }
+      }
+    },
+    {
+      "id": "x8",
+      "letter": "x",
+      "name": "X8",
+      "domain": null,
+      "primaryColor": "#455A64",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/x8.svg",
+          "bytes": 1548,
+          "sha256": "214b056b6713d39fe946608e54ea424e9cfe39483b44d11955f55dcec794ea1c",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/x8.svg"
+        },
+        "png32": {
+          "path": "png_32/x8_32.png",
+          "bytes": 1132,
+          "sha256": "a8e7a49e5a0e2dcce0214055b2243da38c973b0d63c353edd366f2fd5f494d76",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/x8_32.png"
+        },
+        "png192": {
+          "path": "png_192/x8_192.png",
+          "bytes": 7397,
+          "sha256": "c0fe737eeccbb6603848a00ce1b0fcd6910548904629ffe47b6f42df6dcf0864",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/x8_192.png"
+        },
+        "png526": {
+          "path": "png_526/x8_526.png",
+          "bytes": 21788,
+          "sha256": "b98ff849fd77de70fdfc5bf548426237e275ad691b12c102fd7de4fca53b07fa",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/x8_526.png"
+        }
+      }
+    },
+    {
+      "id": "y8",
+      "letter": "y",
+      "name": "Y8",
+      "domain": null,
+      "primaryColor": "#607D8B",
+      "letterLayoutRule": "descender",
+      "artifacts": {
+        "svg": {
+          "path": "svg/y8.svg",
+          "bytes": 1548,
+          "sha256": "5376d3fcc38d0f630df31e517a34c21c10e4fcd4223aacfb16eac9bbed93e31d",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/y8.svg"
+        },
+        "png32": {
+          "path": "png_32/y8_32.png",
+          "bytes": 1170,
+          "sha256": "5768b5b40fe0467f4131f261af5a5d6346b3353fdef5068ee553f1d7e4381b0e",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/y8_32.png"
+        },
+        "png192": {
+          "path": "png_192/y8_192.png",
+          "bytes": 7466,
+          "sha256": "7437c11d43ab9cba136dad2f2fdc5d846a0bde55414b11ac8d4295a12cd8ecd9",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/y8_192.png"
+        },
+        "png526": {
+          "path": "png_526/y8_526.png",
+          "bytes": 21679,
+          "sha256": "b1048c9c778a1cf33e04ca3beff538f292c8f083dce2a7ee3dacb1b4a187ffbd",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/y8_526.png"
+        }
+      }
+    },
+    {
+      "id": "z8",
+      "letter": "z",
+      "name": "Z8",
+      "domain": null,
+      "primaryColor": "#8E24AA",
+      "letterLayoutRule": "compact",
+      "artifacts": {
+        "svg": {
+          "path": "svg/z8.svg",
+          "bytes": 1548,
+          "sha256": "846c814a4d15d42603b7e04c9e1e1f4e857438d58544068d307b3e018ead33f1",
+          "width": 192,
+          "height": 192,
+          "viewBox": [
+            0,
+            0,
+            192,
+            192
+          ],
+          "cdnUrl": "https://bild8.de/assets/8/svg/z8.svg"
+        },
+        "png32": {
+          "path": "png_32/z8_32.png",
+          "bytes": 1092,
+          "sha256": "d0bc20dc652e6555fd3dd9875847169d23a3cce1381ea035de47fcc382367df2",
+          "width": 32,
+          "height": 32,
+          "cdnUrl": "https://bild8.de/assets/8/png_32/z8_32.png"
+        },
+        "png192": {
+          "path": "png_192/z8_192.png",
+          "bytes": 6584,
+          "sha256": "e788f2f01f449c95f23c7b920f2da1895961209bd61c1dae1966338f30c0e8a6",
+          "width": 192,
+          "height": 192,
+          "cdnUrl": "https://bild8.de/assets/8/png_192/z8_192.png"
+        },
+        "png526": {
+          "path": "png_526/z8_526.png",
+          "bytes": 19051,
+          "sha256": "b44e64fa40dbd26a7cfd3227a76b41451d757f521065cd4fd00a990dcfc4ae78",
+          "width": 526,
+          "height": 526,
+          "cdnUrl": "https://bild8.de/assets/8/png_526/z8_526.png"
+        }
+      }
+    }
+  ]
+}
