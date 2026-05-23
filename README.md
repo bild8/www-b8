@@ -9,6 +9,9 @@ copy, reuse, publish, distribute, modify, or otherwise use them.
 Any use requires prior written permission from the applicable rights holder. See
 [LICENSE.md](LICENSE.md) for the full rights notice.
 
+Customer-facing legal context is summarized in
+[KUNDENHINWEIS.md](KUNDENHINWEIS.md).
+
 ## Hinweis auf Deutsch
 
 Dieses Repository ist nicht Open Source. Alle Rechte bleiben vorbehalten.
@@ -20,3 +23,6 @@ Veraendern oder anderweitigen Nutzen.
 
 Jede Nutzung erfordert die vorherige schriftliche Zustimmung des jeweiligen
 Rechteinhabers. Der vollstaendige Hinweis steht in [LICENSE.md](LICENSE.md).
+
+Eine kurze rechtliche Einschaetzung fuer Kunden steht in
+[KUNDENHINWEIS.md](KUNDENHINWEIS.md).
