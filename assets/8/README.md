@@ -6,6 +6,9 @@ to represent one brand, company, website, or reserved brand slot.
 Use [brands.json](brands.json) as the canonical machine-readable manifest for
 templates, static-site builds, and GitHub Pages projects.
 
+Use [GENERATION.md](GENERATION.md) as the canonical rebuild prompt and visual
+checklist for regenerating the icon set.
+
 ## CDN Paths
 
 Replace `{id}` with `a8`, `b8`, ..., `z8`.
