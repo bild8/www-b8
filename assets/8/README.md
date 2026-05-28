@@ -10,6 +10,13 @@ Use [icon-spec.v1.json](icon-spec.v1.json) as the canonical machine-readable
 asset prompt for regenerating and verifying the icon set. Use
 [VISUAL-CONTROL.md](VISUAL-CONTROL.md) for manual visual checks.
 
+## Repository Integration
+
+Current and future `*8` repositories should treat this folder as the single
+source of truth. Web-facing repositories should reference the CDN paths below.
+Local copies are reserved for offline apps and tests, and those copies must be
+kept in sync with this catalog.
+
 ## CDN Paths
 
 Replace `{id}` with `a8`, `b8`, ..., `z8`.
