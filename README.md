@@ -1,5 +1,25 @@
 # b8 Assets
 
+## Canonical 8 Asset Source
+
+`bild8/www-b8` is the canonical source and public delivery repository for the
+shared `a8` through `z8` brand asset catalog used by current and future
+software8/bild8/notariat8-style repositories.
+
+Consumer repositories should reference the published CDN paths instead of
+copying the full catalog:
+
+```text
+https://bild8.de/assets/8/svg/{id}.svg
+https://bild8.de/assets/8/png_32/{id}_32.png
+https://bild8.de/assets/8/png_192/{id}_192.png
+https://bild8.de/assets/8/png_526/{id}_526.png
+```
+
+Local copies are only for offline surfaces or tests. When a repository needs a
+local copy, it must document the selected `{id}` and keep that copy aligned with
+this repository.
+
 ## Repository Style Guide
 
 Dieses Repository dient als Style-Referenz fuer bild8/software8 Repositories,
