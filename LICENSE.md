@@ -2,6 +2,14 @@
 
 SPDX-License-Identifier: LicenseRef-All-Rights-Reserved
 
+## Third-party font exception
+
+The unmodified Hanken Grotesk font in `assets/8/fonts/HankenGrotesk-Black.ttf`
+and the same font embedded in generated SVG metadata/styles are licensed under
+the SIL Open Font License 1.1, not the restrictions below. Its copyright notice
+and full license are in `assets/8/fonts/OFL.txt` and in each generated SVG.
+This exception grants no rights to the brand marks or other artwork.
+
 This repository is not published under an open-source license or any other
 public reuse license. Except where a separate written agreement or mandatory
 law provides otherwise, all rights are reserved.

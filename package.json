@@ -1,0 +1,17 @@
+{
+  "name": "bild8-brand-assets",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "build": "node scripts/generate.mjs",
+    "check": "node scripts/generate.mjs --check",
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "ajv": "8.20.0",
+    "pngjs": "7.0.0"
+  }
+}

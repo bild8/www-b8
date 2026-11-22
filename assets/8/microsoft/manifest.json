@@ -1,0 +1,4352 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "bild8.microsoftAssetCatalog",
+  "generatedAt": "2026-11-22",
+  "sourceManifest": "brands.json",
+  "fontSource": "fonts/source.json",
+  "rules": "MICROSOFT-INTEGRATION.md",
+  "icons": [
+    {
+      "id": "a8",
+      "primaryColor": "#E91E46",
+      "teamsForeground": "#000000",
+      "teamsContrast": 4.739,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/a8/color.png",
+          "bytes": 2594,
+          "sha256": "f357a5653f5057cb2a6e25511c71f0911c6bad7752925c290f5470e010f1f088",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/a8/color.svg",
+          "bytes": 102629,
+          "sha256": "30cd7989096e08674a5efaa346317a7bceaa953985cd7933ed11d000f6223408",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/a8/outline.png",
+          "bytes": 726,
+          "sha256": "d19f63ac1048b977548add71dd594a46a7816421291848a67aa4b94b7db7b215",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/a8.svg",
+          "bytes": 102547,
+          "sha256": "9394a9fb74d1f2eeb6f61631b15b2db34a1ce22c4bcdab169437dc29001ac3d5",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/a8/manifest-fragment.json",
+          "sha256": "0dc4e42ec4544e174f9dc2b843a05d529265d4caae784deca7a3598a6a9c74a5",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/a8_16.png",
+          "bytes": 349,
+          "sha256": "499995f8a9dacb850b573f08bc0495b53416565424026e1034104f7fa932c11a",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/a8_20.png",
+          "bytes": 453,
+          "sha256": "cc178ba6476136cc37825d2dfa86c4f131dfe299c1cf91c06587149f999376a7",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/a8_24.png",
+          "bytes": 529,
+          "sha256": "59d2bebea4ffa1348c39d0637a577f37114fbf06623da0bc0bdc770fb52545ff",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/a8_32.png",
+          "bytes": 726,
+          "sha256": "d19f63ac1048b977548add71dd594a46a7816421291848a67aa4b94b7db7b215",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/a8_40.png",
+          "bytes": 809,
+          "sha256": "35173a4bb4ebc40e110fac1f47a5820d59da1552a70ff004b3edd7c756dd98f8",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/a8_48.png",
+          "bytes": 982,
+          "sha256": "a064cc8d70d11350d54f42d9c88d4a22dc987b86a758c4542acc0847aefae143",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/a8_64.png",
+          "bytes": 1316,
+          "sha256": "cc40005a9aa8d18d60dc120db96c217e676970de8379ed0477f3dd9f647a39ff",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/a8_80.png",
+          "bytes": 1647,
+          "sha256": "8cf55594e5fcb4090dac2160d3d4555b1fecd14ad7eb723dcc8a9f96a6631128",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/a8_96.png",
+          "bytes": 1983,
+          "sha256": "c027b5b2bbe2ed7eb13ae07456990437e42b3f1f8b0735089f7bf4493ef75841",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/a8_16.png",
+          "bytes": 453,
+          "sha256": "ad1e8d2f5afb8903e06f138593b74658206ab6a1c807ad9d1d3da2457ae90588",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/a8_20.png",
+          "bytes": 575,
+          "sha256": "fb713f3dcd1679b5ddcc940658a265b7bf7a938a4c217da0cb3c750186de1a14",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/a8_24.png",
+          "bytes": 689,
+          "sha256": "9b9574f2590e01e507c6c1a96813dc226f2bf0641f9462401a0ace4517dcc010",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/a8_32.png",
+          "bytes": 864,
+          "sha256": "7d08ead1c5a4f6ee450e3aefacf76b7d2f17650310473340f6c9c92c621c55fc",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/a8_40.png",
+          "bytes": 935,
+          "sha256": "51a2cb4e509b1b7da644118f411942a35fea9093a35e74d31a1206e55245d6ba",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/a8_48.png",
+          "bytes": 1069,
+          "sha256": "df1a21de6b7eb589d3a9e7c100863fb3b6d0361b7cf79540ee746f0dbf957da0",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/a8_64.png",
+          "bytes": 1446,
+          "sha256": "0f14e151479906f7d21f8e25a2e3356682d87821ae35cb730b412c06d8f65e14",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/a8_80.png",
+          "bytes": 1887,
+          "sha256": "36e0c7a2f47b1aaebff000b11320bdf09ea43bfa45879b7b003fbf01de9e80ce",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/a8_96.png",
+          "bytes": 2203,
+          "sha256": "3fc1e69edfcbbe844f4072673915f4c9e8895864d5e315e30b5ce7103e41aed3",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "b8",
+      "primaryColor": "#F4511E",
+      "teamsForeground": "#000000",
+      "teamsContrast": 6.042,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/b8/color.png",
+          "bytes": 2707,
+          "sha256": "54b0a87fda5cd101b2a9bc4e69570456b7405c870ebc172ff548844fd455556f",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/b8/color.svg",
+          "bytes": 102629,
+          "sha256": "1f42e58ca61a4115c43a1422d88416ede18b8b1fea2f7036148f1c016f733307",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/b8/outline.png",
+          "bytes": 758,
+          "sha256": "a34acfd5583e5550eb775fbe86de6fce87f96e8b88e6b2dcf3325dbdd46c1b49",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/b8.svg",
+          "bytes": 102547,
+          "sha256": "5a828c2f8fae771f3ae675bad6a934b9eec046038f36d666ce3b19f5ac88e7a9",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/b8/manifest-fragment.json",
+          "sha256": "cf7047f499849737a7c93de65d135ad081eae0c456637b7accb0c1359ce4f562",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/b8_16.png",
+          "bytes": 358,
+          "sha256": "aef586fe7e54ad97374ef0ee58973631d9c5930318459ed27326521fe7f88606",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/b8_20.png",
+          "bytes": 470,
+          "sha256": "271fa58e2c2a96606c1f5cc905640acb509ba53ecc26abc01cf72d04bf1e6109",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/b8_24.png",
+          "bytes": 544,
+          "sha256": "00e7fae87fa4c11f2c73e5389884089661d230e1bd150533e1da84c82be520f6",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/b8_32.png",
+          "bytes": 758,
+          "sha256": "a34acfd5583e5550eb775fbe86de6fce87f96e8b88e6b2dcf3325dbdd46c1b49",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/b8_40.png",
+          "bytes": 870,
+          "sha256": "439b6677569ca50a3e549eb06255f647b1b3a68fd1fe93b4b01d52f3db78a9e4",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/b8_48.png",
+          "bytes": 1000,
+          "sha256": "09077f82de341af66726d0c19a535db9df65bb6120a9bbea63b89f53146d4d18",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/b8_64.png",
+          "bytes": 1391,
+          "sha256": "0e39fb4afb1282505c4fdb4124ae42a81efbaaba3d6095fb9f1866b57906b395",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/b8_80.png",
+          "bytes": 1755,
+          "sha256": "b216622cd273a76b5f6895ba0dc3264a65adaf7d901cb58bedc2ec0c05df0d91",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/b8_96.png",
+          "bytes": 2133,
+          "sha256": "b11df6b0a6541399c12b0137c7050284943f41dfc7f8335d0b51cec2a3699e79",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/b8_16.png",
+          "bytes": 465,
+          "sha256": "dd0fa34b47c5882750b74400ba7862ae4dd30875103567f0f2aa89b727d37af4",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/b8_20.png",
+          "bytes": 582,
+          "sha256": "58fc6041f0a2c0cc6b6b9d6c227b8e095cfc6194cf03190e0ac3a3aa8c2cc2bc",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/b8_24.png",
+          "bytes": 690,
+          "sha256": "a317db126f23999f5d57c67c693016062166c4edd4dd5f581b9e0910ace14065",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/b8_32.png",
+          "bytes": 880,
+          "sha256": "d524f3fbd5fc8bcd56b82e77958967e727a6a7e5407a0ed0010ddcbf9ca4d320",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/b8_40.png",
+          "bytes": 995,
+          "sha256": "4e6728dca11f7acacd4204e3dcd55705c153e48015b215cb23723c264d0b23c3",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/b8_48.png",
+          "bytes": 1100,
+          "sha256": "594a153ca7de61fa295f0013aa9fa143c4c12c491f0d560abc1b3d57151663d6",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/b8_64.png",
+          "bytes": 1496,
+          "sha256": "79dfa6b87483336bfc17e8e05964dec0d08ed8245760a09936e3d9d8c943ab9a",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/b8_80.png",
+          "bytes": 1893,
+          "sha256": "e38172f5d9229ea7e806d09bf26e5514defe5d55ef79d731afea40693a529181",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/b8_96.png",
+          "bytes": 2245,
+          "sha256": "03baf34f7bad44915cc77c8039aedb4e4b9ec198d39ef6853ace71bb7670501e",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "c8",
+      "primaryColor": "#FB8C00",
+      "teamsForeground": "#000000",
+      "teamsContrast": 8.853,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/c8/color.png",
+          "bytes": 2486,
+          "sha256": "e82a6bc21b9375e88775dec5b4bd9ca3aa0455c371efc7f1c1d152cc46814bd2",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/c8/color.svg",
+          "bytes": 102629,
+          "sha256": "18b026336be8c260ffcfd5842d27ba9c4d489ff9624d3bca24f37ac2722a3b31",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/c8/outline.png",
+          "bytes": 738,
+          "sha256": "1c007a1adcc25aaf49767181a302630a82460e4cd28a294085a1ddb83bc08a0e",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/c8.svg",
+          "bytes": 102547,
+          "sha256": "524f8020ff96d55004085325db2b62ccd25d46ad64ca64a39809d30d90c004e0",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/c8/manifest-fragment.json",
+          "sha256": "f8e4a37853af2e104822e76f9cf38e82ea0705e350c4a92da2f3f2080fd52703",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/c8_16.png",
+          "bytes": 350,
+          "sha256": "a7c1ab3284c148844aacfa60c9d0a1845c708e423dd07b03b7686854b67071a7",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/c8_20.png",
+          "bytes": 442,
+          "sha256": "33618bdd42788ed22e9e781b1aa037c081cd176b603a488b49b78838e0733a78",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/c8_24.png",
+          "bytes": 526,
+          "sha256": "34f31ca6ac1f10082e01024583592bf9f432af910dd022081d39cdc32942a56e",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/c8_32.png",
+          "bytes": 738,
+          "sha256": "1c007a1adcc25aaf49767181a302630a82460e4cd28a294085a1ddb83bc08a0e",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/c8_40.png",
+          "bytes": 831,
+          "sha256": "0dcff08fcdd6e0b3bb9e4f5d6d6df6783a95d66e4cc51d93cada250f80660958",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/c8_48.png",
+          "bytes": 985,
+          "sha256": "6e618deee845214e7005a77a6e0670420bb85c6c1caf3c1bb1836fda22676a6a",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/c8_64.png",
+          "bytes": 1367,
+          "sha256": "17e5c4ddeba6293acbcd2542828f142b1b973c0deaf3464ea8d6d9664af8bab0",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/c8_80.png",
+          "bytes": 1705,
+          "sha256": "0311d0407cf930d924f98653fe8f6e61b618d3c286195ad81434fd42df07e725",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/c8_96.png",
+          "bytes": 2044,
+          "sha256": "0ebdb770098c5ba2e01166f4a0590e9fb7e6ca2af9ca7d62e959a589253a982e",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/c8_16.png",
+          "bytes": 451,
+          "sha256": "91f0c16e2b456b3c05e82650b265126f61ea9d3eca5824d20e114f52e600eff8",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/c8_20.png",
+          "bytes": 565,
+          "sha256": "9ce77d2c480b44347c067ed5d457933980e0132eee3a96d760cb73530958d25c",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/c8_24.png",
+          "bytes": 675,
+          "sha256": "655ee741597e2a4c9ed1765bb646add9b25806384c8c4bbf005f96f7a52cebd8",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/c8_32.png",
+          "bytes": 882,
+          "sha256": "07cecc1b87e6c5653292219b1940da1e6cef5c9f8726969a6506e78ed14cc164",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/c8_40.png",
+          "bytes": 931,
+          "sha256": "a8db0d068ed60aa68f72b486a41e9717a91172932ab5aaa036b9b8d7ca8bb25b",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/c8_48.png",
+          "bytes": 1087,
+          "sha256": "b9ef7b7fce6c6718b295b0b1435377cdfaa4229a292a4508f18607065d9e30ee",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/c8_64.png",
+          "bytes": 1469,
+          "sha256": "27af08e782200b9b2dbbef195918fabbacf1099cb4db45c58c56f3e188f87f13",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/c8_80.png",
+          "bytes": 1824,
+          "sha256": "1e84966843bdd799c209269cdf748add2edd680df8b36aa3762a0eb52dcc0b1b",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/c8_96.png",
+          "bytes": 2194,
+          "sha256": "7d35ae5c66d877b3d23fc3a6e86fb91b7a3eb52636bfa3e0991387ec9b5d8f1e",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "d8",
+      "primaryColor": "#F9A825",
+      "teamsForeground": "#000000",
+      "teamsContrast": 10.656,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/d8/color.png",
+          "bytes": 2700,
+          "sha256": "ac4f18852e50cec3691471535fce89906f4422e4c8c4a03350e72ed85f1c305d",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/d8/color.svg",
+          "bytes": 102629,
+          "sha256": "58e45ea2c702d17efb7c94ce651e7442ca21455266c8783198de846077232101",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/d8/outline.png",
+          "bytes": 762,
+          "sha256": "ebe40f705d8bb1c5d23b189f7adc9db62837a0215df200c052b0ed66b0bc8bd1",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/d8.svg",
+          "bytes": 102547,
+          "sha256": "cda0d3b98c30510a141eb6851530a8eba3bc2577763f346002f909be0e2813e9",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/d8/manifest-fragment.json",
+          "sha256": "e90443b7919445ec2bd342db5ae40ad9cb2e873e524093772acf557cff2abd6a",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/d8_16.png",
+          "bytes": 359,
+          "sha256": "e498761789dc7360f1b4da8dc43465d66e5e435ce238dea5d29f8e27530406f9",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/d8_20.png",
+          "bytes": 458,
+          "sha256": "c91b6eb30ac21be527c48c18fc9e64d53720f316f7251bc9175281cb802c0bb0",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/d8_24.png",
+          "bytes": 549,
+          "sha256": "589e1c62800615de0635bcd0aa7f099a5a2304c93732d8fb023354610ce60788",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/d8_32.png",
+          "bytes": 762,
+          "sha256": "ebe40f705d8bb1c5d23b189f7adc9db62837a0215df200c052b0ed66b0bc8bd1",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/d8_40.png",
+          "bytes": 827,
+          "sha256": "4a02f9eb2c250cb0fb27e9959f8d5dded80c293718b0b1673c942eaaf34fd9cc",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/d8_48.png",
+          "bytes": 990,
+          "sha256": "0a8f037d816bc03394198b888ea15a4fb8cc79023dba5c936b6ed51afbe7f014",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/d8_64.png",
+          "bytes": 1362,
+          "sha256": "c5ac1602fc2d07d0e6106a4c89095a672bde901c90af4e858286e06f41de5115",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/d8_80.png",
+          "bytes": 1646,
+          "sha256": "e611f1e908c6ba337c9f94aa49ad76ee65ec8655664e9fc5f0f155d56d4ebc57",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/d8_96.png",
+          "bytes": 2104,
+          "sha256": "70901a893791cc97ce855fe9130f40a24337759e757d53b1ceaaa54f00ea7269",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/d8_16.png",
+          "bytes": 468,
+          "sha256": "e2f288ffd490461df5a70445cfd4d36b2384e37ab36a4c41f9ed03965f7d0b08",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/d8_20.png",
+          "bytes": 590,
+          "sha256": "7ba4998fd30dff1eb63fad521bed8d9d6195b3f6d6d489534f8544b349ae309f",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/d8_24.png",
+          "bytes": 697,
+          "sha256": "63d1188d223dfeb3442845e5beda4288761c632134d8f237b3efbc9702ed10bf",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/d8_32.png",
+          "bytes": 897,
+          "sha256": "78fcf5eed8ce7b8c6d745aefaa46cfd67714141fc00c45b9b9f7b04a7bbbe477",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/d8_40.png",
+          "bytes": 961,
+          "sha256": "5c7198ea08d8c6ae4f75460c1d7e4c4e7f49f4b118f7450e469bf3fd41cb5368",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/d8_48.png",
+          "bytes": 1083,
+          "sha256": "58d93f6b6caeb75777a313bfd61fac91c29e0923940f357854c9f16d2236c3e2",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/d8_64.png",
+          "bytes": 1484,
+          "sha256": "2d2ae7609e31c15bcce47e1e0144343aacfdfa2a20dcb3af68dd833fa6702a8c",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/d8_80.png",
+          "bytes": 1917,
+          "sha256": "73c96d1949acfbf86013beb75ca55140dec721792e3e493ee3db63512799874b",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/d8_96.png",
+          "bytes": 2235,
+          "sha256": "767a2304945095ad91c04abd2feea95092489f0fb190100dc5b36a96434f732f",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "e8",
+      "primaryColor": "#C0A000",
+      "teamsForeground": "#000000",
+      "teamsContrast": 8.27,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/e8/color.png",
+          "bytes": 2395,
+          "sha256": "c00ad0b0dee710434edf904820cdb5ac1d4eac1ef67305e2dfa951dd6b8a03be",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/e8/color.svg",
+          "bytes": 102629,
+          "sha256": "238202b5b66dffdfb20da2166608f0444c606135323d3b6250b3fe0e10698941",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/e8/outline.png",
+          "bytes": 726,
+          "sha256": "c2859aa7034b0ef2d5410aba39abfb22d2a9b525ad6fae6590683d8861f2213c",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/e8.svg",
+          "bytes": 102547,
+          "sha256": "dfee1b2c00c2cc926a26b349533156b73f489ae85673ad7bae2fd6fa11e3331f",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/e8/manifest-fragment.json",
+          "sha256": "e7ba26dc32ecbc23ec70d20f7204d8ac38b5e694b333ed9d926ddb1c32c81595",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/e8_16.png",
+          "bytes": 353,
+          "sha256": "b8b3420efb6faeeafb0d09bcfe3cfd0173a682839d6ccba6fd7e04fb50cb1d93",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/e8_20.png",
+          "bytes": 445,
+          "sha256": "d31ce609b4bb92610c4f092869464841d3c166768d91e7915c8c898a4ea1a6e4",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/e8_24.png",
+          "bytes": 530,
+          "sha256": "752b46aff257465f83eda85e570cce6088951e5601c95e12d2e1d87cfcc10931",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/e8_32.png",
+          "bytes": 726,
+          "sha256": "c2859aa7034b0ef2d5410aba39abfb22d2a9b525ad6fae6590683d8861f2213c",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/e8_40.png",
+          "bytes": 825,
+          "sha256": "589b0aa991baba41c9dada985d3510c775d54db9bbc47c7aa92ed209b077d298",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/e8_48.png",
+          "bytes": 974,
+          "sha256": "d98696d8655aa99abd4516a39689365e33f9dc62b3df98e8484c91ce3dfbb7df",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/e8_64.png",
+          "bytes": 1342,
+          "sha256": "4605ee1c26332b4787f6ab9693eb83df95604e53d87b3b496b2cf212b293246e",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/e8_80.png",
+          "bytes": 1684,
+          "sha256": "1b13fe14433155cde8e49339bf59a98199653a88e8b5470ebcfcffd0eaac5090",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/e8_96.png",
+          "bytes": 2042,
+          "sha256": "d15ed8aef33c59686c73befe9b6aab0f2fab72450650a97051544083d4b28e3e",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/e8_16.png",
+          "bytes": 453,
+          "sha256": "98aca2e0123a6f69700ff0497bb3375018bf7dadb95549d3221f93d2e75a2e43",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/e8_20.png",
+          "bytes": 573,
+          "sha256": "82909172ecd6c60b97dfedd4a7d14c569dbcf0748ec4d7a7d35b9370602ac5aa",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/e8_24.png",
+          "bytes": 685,
+          "sha256": "8df71e46eb4859f41a6691f1c9c5701c92305065363d278e72cde5b7a9478440",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/e8_32.png",
+          "bytes": 854,
+          "sha256": "4eb59948603edc5e4900e011a3f23328bd695637e77f4508547a493364f766d0",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/e8_40.png",
+          "bytes": 934,
+          "sha256": "f4db0aafce563008eb3cab5364e2f5b34330769611904736cce637a4f81e1ee1",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/e8_48.png",
+          "bytes": 1067,
+          "sha256": "461f3fc794039c5594dbcf927ad2db5ca4e611fc5f412cc534b9ed6f67168ecc",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/e8_64.png",
+          "bytes": 1441,
+          "sha256": "31551020dc6bb4f0b68eef96d7c7c1db93c43c3971987ee2b1b2d058d3125602",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/e8_80.png",
+          "bytes": 1839,
+          "sha256": "bc3c7ccca2e6bd2bfaba6958494939247081e58de912d2ebdc5cbf9e5918632c",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/e8_96.png",
+          "bytes": 2179,
+          "sha256": "5318a6ed4edcbeabf1dbbc42a3ae804879af91d00047911e91883ac0657c7f34",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "f8",
+      "primaryColor": "#5A6469",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 6.067,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/f8/color.png",
+          "bytes": 2443,
+          "sha256": "5da255465ab8d97bc85e4db9901895cc083f7eced4215cadfa2835ceac58ade2",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/f8/color.svg",
+          "bytes": 102629,
+          "sha256": "a89adbd1af5c548d86138d89623719c9df2bf05ec8296d819620ee49cba81fee",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/f8/outline.png",
+          "bytes": 708,
+          "sha256": "eb624ee80941af8f4ea0af7dc1fe7be8e482ae6a844f590f460e6254cf5780ee",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/f8.svg",
+          "bytes": 102547,
+          "sha256": "5c26e6abc41bdd011bb36a8b299cea16e593384ef341aa86c73729317c19e772",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/f8/manifest-fragment.json",
+          "sha256": "f6e5abefd8cd08f8eeb8846ac14a5fd1d01d7302c09f69986f6086d71aa5c89e",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/f8_16.png",
+          "bytes": 351,
+          "sha256": "b2c49d73d5dc84d35b02f333547af17e0f157814720788188b1803b8c31cb316",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/f8_20.png",
+          "bytes": 438,
+          "sha256": "d68edb7a1381e49640c4266a73220f24344ded713c826166882131e770ee9f6e",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/f8_24.png",
+          "bytes": 545,
+          "sha256": "2c4b398497fd1259cef1a69714b6bec080e776760c302a4192c923eed76e1664",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/f8_32.png",
+          "bytes": 708,
+          "sha256": "eb624ee80941af8f4ea0af7dc1fe7be8e482ae6a844f590f460e6254cf5780ee",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/f8_40.png",
+          "bytes": 788,
+          "sha256": "b77b204a182a051122fc5c6fca5aa46bbece8a1741a397df1c9eb4e0100af623",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/f8_48.png",
+          "bytes": 898,
+          "sha256": "797cd8c456373a0efa988533b96b828e5f89fbc57544153f04ccdc17900763a5",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/f8_64.png",
+          "bytes": 1218,
+          "sha256": "08b1db118570c9f4239e32e2d7b8aa4e65680c3a4f3e968404c1203f69a0f5a6",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/f8_80.png",
+          "bytes": 1556,
+          "sha256": "a877f403150dfefe41778336b07d61a4ae14fd0a78cb1329d54e70373b221cae",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/f8_96.png",
+          "bytes": 1857,
+          "sha256": "a17432620a7053fdd4186bed0665da66b6b7a8f958f10524a86736e265a3831a",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/f8_16.png",
+          "bytes": 453,
+          "sha256": "6a94fd805039d2da14c1b33732b91d27cdf3a4a494a5e08a0637684c6bc09c20",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/f8_20.png",
+          "bytes": 555,
+          "sha256": "568bcb830bbb5043481e04f10d68b9e5a8f7e76202667dc6db0968a52a456baf",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/f8_24.png",
+          "bytes": 679,
+          "sha256": "fe2499786ab83971d726b094a87a58a365c166f6de5ea3f313faa3ac9c94822b",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/f8_32.png",
+          "bytes": 837,
+          "sha256": "9ac68bce7469734dd4ff4980868965bda258a88bf116ec4358791ccbcb1a26a1",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/f8_40.png",
+          "bytes": 891,
+          "sha256": "51d4c4a9ca4cdd6ebbabcfd8aaeecd36b4b38967ca4f81488df55c44f2d14105",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/f8_48.png",
+          "bytes": 991,
+          "sha256": "08507ca2cf1abc13688fb8799b2684ba5fb0e8aef7c92ee8c5c2371c96a78756",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/f8_64.png",
+          "bytes": 1321,
+          "sha256": "4cee042987f78d1020bbf9e0c9662c6ce17c7e03733ed73b6bbf3ac549f5c1ed",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/f8_80.png",
+          "bytes": 1686,
+          "sha256": "b2e229e0880e28a4ead318e9fb542c8d46d38e8f75e27ace83d9b8b322603ac6",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/f8_96.png",
+          "bytes": 1942,
+          "sha256": "438dc176539c386fab1bde22a980e6c334f4b4d103c231f89c332e12e2773904",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "g8",
+      "primaryColor": "#43A047",
+      "teamsForeground": "#000000",
+      "teamsContrast": 6.358,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/g8/color.png",
+          "bytes": 2832,
+          "sha256": "6b07311c004a1a6a02072d87c8d00040d0dc8e973f0f7c8991c498d70bfacebe",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/g8/color.svg",
+          "bytes": 102629,
+          "sha256": "7e27705235dac0f0340743541d224a0f29a2d488466cccc73bf47bc15136043e",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/g8/outline.png",
+          "bytes": 790,
+          "sha256": "272d7794841f3c6ca5762c9d4b37e2b69b450a82a3126d0f243a8a6dd4b9ebe8",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/g8.svg",
+          "bytes": 102547,
+          "sha256": "22d384f7c471835e107b44e389a0192a639c48f36ef8415cc142d59ab9951244",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/g8/manifest-fragment.json",
+          "sha256": "2fa7cc503b7efe7fc9cb6ed007b9c7d9fd50471cb0af624ea549239106a1c9de",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/g8_16.png",
+          "bytes": 372,
+          "sha256": "8f7b59c36a791543f2de42ae40d4208c4c8ba6889705aa5f37de4df771d92717",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/g8_20.png",
+          "bytes": 478,
+          "sha256": "a8de0d8d6b91f79580c2de15e4f39b15233f015923fc271231a513e594a996f2",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/g8_24.png",
+          "bytes": 576,
+          "sha256": "6c3a1d5aae1ef1986cf9358813cc1afc812b127ec09a4cfc94328e65dde1f942",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/g8_32.png",
+          "bytes": 790,
+          "sha256": "272d7794841f3c6ca5762c9d4b37e2b69b450a82a3126d0f243a8a6dd4b9ebe8",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/g8_40.png",
+          "bytes": 923,
+          "sha256": "c00e164a37dce3fcc0af1c3be4691acaab9090be5483352f5b3b5c4df19f9bec",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/g8_48.png",
+          "bytes": 1109,
+          "sha256": "91287fb7f8b3c336a06bd3045760a8adfd873c12db6e9cfc0cb287e45dd6d187",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/g8_64.png",
+          "bytes": 1511,
+          "sha256": "1aec969694f4d04a3ca88011509f4efef97eab736f1a7b9476af0dd08932c0e4",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/g8_80.png",
+          "bytes": 1900,
+          "sha256": "89aa4cd3a683e84eece38ff7a97e32ede79277b319a762220fc684ea604a2a12",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/g8_96.png",
+          "bytes": 2283,
+          "sha256": "ba37cb912dd93f2ad7b9e41863eb2d819ad2b793e7084670f97ac0dddb6ea037",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/g8_16.png",
+          "bytes": 483,
+          "sha256": "32ac1e5dda7c397e6ab032c6b2613588a2770c4dfdf422d866ce2280cc2b5c8a",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/g8_20.png",
+          "bytes": 602,
+          "sha256": "6173d43fcb33497b41a2984996ea1c2cd308522af1b3162f07bbef1c758f2bd7",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/g8_24.png",
+          "bytes": 732,
+          "sha256": "20ce4dc037afa75686f6ea48dc4ead7b2ab34ef5aceb623caafef06cf15fe6e4",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/g8_32.png",
+          "bytes": 937,
+          "sha256": "71c9ec52c19f64454081eb714616a97537cc799b21f077b650bcaab7edbb2b79",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/g8_40.png",
+          "bytes": 1039,
+          "sha256": "840c7ab8dc737f8d402b76275b9ad666625602f7fb612543c1f4602ac6191737",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/g8_48.png",
+          "bytes": 1205,
+          "sha256": "22cfa1330d29cf369c656fb03f5bb102e835268939698d624973717e14e53424",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/g8_64.png",
+          "bytes": 1617,
+          "sha256": "1e599f4bf7d9b6f2a26e50b458cce5ad5b4bdcc40b91b0762ee8d7f0c331193d",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/g8_80.png",
+          "bytes": 2033,
+          "sha256": "d963f2321f6ed669b4eb0d89076bc39069055e43c95dcb13faa3facc67d57678",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/g8_96.png",
+          "bytes": 2448,
+          "sha256": "41d48bdf089ddcf8b9eaacb816259ab876e79b638ba15be69ba0d7d21e999404",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "h8",
+      "primaryColor": "#00A86B",
+      "teamsForeground": "#000000",
+      "teamsContrast": 6.813,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/h8/color.png",
+          "bytes": 2433,
+          "sha256": "88611237aceeba43bfb1cd1fc85f90d68c9630cb5ff9db0b2b4269554fcc2fea",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/h8/color.svg",
+          "bytes": 102629,
+          "sha256": "df8adb24c5d077cc71a6084b292acca5b139f4633dfcdf734558cb6b6eefa46a",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/h8/outline.png",
+          "bytes": 713,
+          "sha256": "9a5edeca5a3e1f50d8818b6a8af81fe0fca3805cd24a22edbc87714b76dd363e",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/h8.svg",
+          "bytes": 102547,
+          "sha256": "8bb45b13ecfb035c97ed41a7e125a3f083ced3572a715189e0e2fddc3e13ba3a",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/h8/manifest-fragment.json",
+          "sha256": "c4f72cadcfe6ddf00afa6ab1c03c4c7c89e09778e1f3b381ea5699534f8040b3",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/h8_16.png",
+          "bytes": 348,
+          "sha256": "31fd158e11bc8e5b2d8e15d843b6fa59f86b22e5e1e8a404a3aa39a33104669e",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/h8_20.png",
+          "bytes": 451,
+          "sha256": "7ae5f0915ea50e22cd759d2286009b30a673a0b90dfd94fed9fefeb3a313cd71",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/h8_24.png",
+          "bytes": 527,
+          "sha256": "0b73d363eafbffcdb9402760f78f82ef0f77d03615dc7cb8801959856577a419",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/h8_32.png",
+          "bytes": 713,
+          "sha256": "9a5edeca5a3e1f50d8818b6a8af81fe0fca3805cd24a22edbc87714b76dd363e",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/h8_40.png",
+          "bytes": 812,
+          "sha256": "452752165a413eef9c52879ea890814d11a26c5ee8ad9e46a6f32cb0d60c0880",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/h8_48.png",
+          "bytes": 913,
+          "sha256": "6f67a752204aede80936efcd8b73cd6dcdc0980d4bbe58e6bd2faab33e391e12",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/h8_64.png",
+          "bytes": 1325,
+          "sha256": "362f3a8b56afa43c226fd8344e8430e72c14269e48ce92e91ac3db89df94b68b",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/h8_80.png",
+          "bytes": 1553,
+          "sha256": "2dbafb8dbe0856f12a77731ac55ec2169f50d5fbfe03a70f1ab05ba15a538682",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/h8_96.png",
+          "bytes": 2031,
+          "sha256": "48b6801fbd735632f40cc89867e8e367911faccdde9840089e8f853b905dd087",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/h8_16.png",
+          "bytes": 450,
+          "sha256": "2e3f69d397f9832b08e1367b5c4dab100ae6a73423bdb254209132330dc6f752",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/h8_20.png",
+          "bytes": 568,
+          "sha256": "20c4632a93860c89ad8fa68203119f18f88103fd49fe680505897c7f5553c9ad",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/h8_24.png",
+          "bytes": 680,
+          "sha256": "5efcac772daf1a58f705927a1fcfb6662f46b77c3935ea4d21331b9c135cf1ed",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/h8_32.png",
+          "bytes": 844,
+          "sha256": "173417a0811e95771d68385a119e9b9ca8144409b919dd5a1a1c70ebef5cbc26",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/h8_40.png",
+          "bytes": 929,
+          "sha256": "1e3a5b527ce74c6c184caeaa0ea36c061ed2db33ba00e05a459df4d85c974075",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/h8_48.png",
+          "bytes": 1008,
+          "sha256": "26682380fd9d278417ec61c772cfcb5b6d510d5cfd0040605e4f219720a444e9",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/h8_64.png",
+          "bytes": 1463,
+          "sha256": "b3a2c7052f4815c1cb5286c420c40f50c738587c5c96da6dddbb9ba8b00bb325",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/h8_80.png",
+          "bytes": 1676,
+          "sha256": "7448bdbc998005ac25447ea9db06039aef08a738c56364a268a9191617444ba5",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/h8_96.png",
+          "bytes": 2188,
+          "sha256": "19909cd6643933c9fde602bd1dfa5c9b9b19cd3b71006b8ef2fddfd655025df2",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "i8",
+      "primaryColor": "#009688",
+      "teamsForeground": "#000000",
+      "teamsContrast": 5.718,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/i8/color.png",
+          "bytes": 2442,
+          "sha256": "c98843bfd17308700d65d503d5dbd9e3d1e2eadd42a439a19a2fa2c792bf2956",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/i8/color.svg",
+          "bytes": 102629,
+          "sha256": "1276f9f82176cf41d3880df1b72ee8d2ee8c9b904c78fe7be93cd7989877869d",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/i8/outline.png",
+          "bytes": 668,
+          "sha256": "cbf77990a85251c3a6da5afbadfcbaf4981c5b1d8908faf82dbdad9a3af64dfa",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/i8.svg",
+          "bytes": 102547,
+          "sha256": "8b988eeda2c105d34f797f7f1f82f4768f221603c2d79265320c438a204abbfe",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/i8/manifest-fragment.json",
+          "sha256": "91037fd9e29d745b1885feb493d86f8ae5b5980db0deaec343387f9b982a911c",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/i8_16.png",
+          "bytes": 337,
+          "sha256": "4681ae4c0ff3ef40054fc7e6c66c8f21fb76d1c4f421374891fe7835f42d73e2",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/i8_20.png",
+          "bytes": 422,
+          "sha256": "bd6d8cf17bb8bb61464ce235a9eff2566d2aa0c32b479f86c827b4f7d7a57b16",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/i8_24.png",
+          "bytes": 514,
+          "sha256": "604547e90920694bc57cff7a47492dcd8f7af8cc644db74e5c7aadf216b56b4e",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/i8_32.png",
+          "bytes": 668,
+          "sha256": "cbf77990a85251c3a6da5afbadfcbaf4981c5b1d8908faf82dbdad9a3af64dfa",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/i8_40.png",
+          "bytes": 750,
+          "sha256": "57baf47d7384ef8d275fbc0961387154de99fce0b998f7daba9d2a906b50fe8f",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/i8_48.png",
+          "bytes": 868,
+          "sha256": "3d9d2d3e50e77f2642821878ebed1f461f35a2232aba55e0f6ab06f5a07b5cc4",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/i8_64.png",
+          "bytes": 1155,
+          "sha256": "5ad79e6652a43e7b670b1f4c9864e6430a56cb2002acc540bc6e3d1469e7968a",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/i8_80.png",
+          "bytes": 1459,
+          "sha256": "d25f015b2e2010537e601b2f435733036c7a433bcc18a33a19fce28219ed1859",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/i8_96.png",
+          "bytes": 1804,
+          "sha256": "1c2414154dd23a2242b4ad6f9776b8295fff06d7075a7b11196fd7390ce157a6",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/i8_16.png",
+          "bytes": 438,
+          "sha256": "19f2acb930d67af58ecfa23004fda4980cf2ca5217319b9942ecec3134883230",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/i8_20.png",
+          "bytes": 531,
+          "sha256": "0f198c7d54740a97f121eb8b9e5c14cb5e2e2ef7c4cdc7211fb713dbb30a5e6e",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/i8_24.png",
+          "bytes": 646,
+          "sha256": "b28c0b41507369474eb0a46308c800159786bc13f55e24109414b2c308dcf35d",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/i8_32.png",
+          "bytes": 789,
+          "sha256": "4975d81f77719faf09ba40c6115ee7aaa5dfaf5fad4143aa3fedf11154423af8",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/i8_40.png",
+          "bytes": 849,
+          "sha256": "cb6eddc61894f2fa9db0fbee667ec7e743bf3939a23cf91cdfea1cefcbdc8571",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/i8_48.png",
+          "bytes": 963,
+          "sha256": "71e4e3a91f5bf43b67a6d2e7dc54d2101626147e052e3da33934b586fa8bab2d",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/i8_64.png",
+          "bytes": 1244,
+          "sha256": "9369536ae058ce9a864d76ed382ded5ec59a4acff71bc2beb0e358ac167a5cde",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/i8_80.png",
+          "bytes": 1592,
+          "sha256": "6364dda02a8759f15dc9a2b6c8bec68cd47f653618332d4e96e81b1922d8a41f",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/i8_96.png",
+          "bytes": 1934,
+          "sha256": "0aa5fe6ac9fbe12a66266b7f327f4a8dd901bbe3a9fb9c90e7572f334784ea05",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "j8",
+      "primaryColor": "#00ACC1",
+      "teamsForeground": "#000000",
+      "teamsContrast": 7.671,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/j8/color.png",
+          "bytes": 2543,
+          "sha256": "6f66f664d707ae27ca9b0fa30775782387764e33e9fd4c22004126e7ab59ef39",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/j8/color.svg",
+          "bytes": 102629,
+          "sha256": "76e85d227e0e7ed1661a4a042a653fb08130191076445ca2cb373b1e94b3c9fa",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/j8/outline.png",
+          "bytes": 694,
+          "sha256": "7f5d7522a64462a4dd499ec0c56ed4472eeec8a50121efc1447291032e3668de",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/j8.svg",
+          "bytes": 102547,
+          "sha256": "8e4bb4c944da6674ac42f1c473ca39c401aaa047f037d8890a5c7dce70d57398",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/j8/manifest-fragment.json",
+          "sha256": "921b82af631198bb2e8a942356d599c2ecc9d5b26ab9bb18722ac1b4294ed184",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/j8_16.png",
+          "bytes": 351,
+          "sha256": "fc2e14e56b015f28cc9a8db0bf4f169aa3787f84463afe4236dc43d0db3067c9",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/j8_20.png",
+          "bytes": 436,
+          "sha256": "05cd92a906d8192544f009cff3d98597fb747f5099bcce8de665cf69a4ba27fc",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/j8_24.png",
+          "bytes": 532,
+          "sha256": "bdc08d138ba62251929cd50bda6884449f31c7f245a4336093fbc7f39c0ac75f",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/j8_32.png",
+          "bytes": 694,
+          "sha256": "7f5d7522a64462a4dd499ec0c56ed4472eeec8a50121efc1447291032e3668de",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/j8_40.png",
+          "bytes": 777,
+          "sha256": "501b7aba25e64e7240f9902e57ba91de2b270655241dc43d941d40fdacef5734",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/j8_48.png",
+          "bytes": 911,
+          "sha256": "f6decb8bd189a5c6e18643cd3d209db156db4464ca4c54ef7479d485d3e7ce42",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/j8_64.png",
+          "bytes": 1217,
+          "sha256": "91ca854a1ff32de6e1b80a69f13408fa2526d5b87e5d73b70c55b0eb630c8c75",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/j8_80.png",
+          "bytes": 1533,
+          "sha256": "07125dee8a21a01f5ece5f9c7b4277320e70f117b2f8cdc14cb42ce0cf7e471e",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/j8_96.png",
+          "bytes": 1925,
+          "sha256": "e898773f5acf9fbef457f7e8cdf1cd0d04f28c40c922b2226a8a0b2700ac55b6",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/j8_16.png",
+          "bytes": 449,
+          "sha256": "1c8bd41167f382d51457e772f41a9897c32d3a329abbd4ca015bf4c5b8933118",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/j8_20.png",
+          "bytes": 554,
+          "sha256": "e02279484bc5c5757de60894d2d472449fa1e7906dc57c139856beef58eb2d6a",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/j8_24.png",
+          "bytes": 661,
+          "sha256": "99253662a3d98071fbdec4a044e394625e344fcdc8624e6c336a3f6574edf114",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/j8_32.png",
+          "bytes": 804,
+          "sha256": "58bc4f7ca6fcb147f29fb875183f61b68bd32fd1d55ec60a72aacf0e5efba912",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/j8_40.png",
+          "bytes": 880,
+          "sha256": "a05d07f5fa47e28433e13443ced2166be823b1eadd5b1dd2056565b7b00c7ef0",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/j8_48.png",
+          "bytes": 1010,
+          "sha256": "86e53328b5792c07709e0f68512a2076f5b17f41e3bde4bf284d8ff30d1b2ae2",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/j8_64.png",
+          "bytes": 1304,
+          "sha256": "ede21b3a0d149ec9e079a09a49cf3e44e9ebb03c387116f9b75c47c8b2d6914d",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/j8_80.png",
+          "bytes": 1680,
+          "sha256": "c373b299d68492c658677aeb323d7908e6c4b3af4345abdfe65eea3db7ef6846",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/j8_96.png",
+          "bytes": 2062,
+          "sha256": "8ca3e22fce1d17ed39b3a64628cce1ec6c3b54556500642f7d8f26864005c315",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "k8",
+      "primaryColor": "#039BE5",
+      "teamsForeground": "#000000",
+      "teamsContrast": 6.824,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/k8/color.png",
+          "bytes": 2587,
+          "sha256": "d2ee67eeb2430ebd56fe547e1657f10694bb5d6db3d69b20c301f7c78c3fd9fd",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/k8/color.svg",
+          "bytes": 102629,
+          "sha256": "12b6a86b71f8df9f282f6a8f26a4b7469faad4c7a284b9e9cc68d9ad99ac1509",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/k8/outline.png",
+          "bytes": 721,
+          "sha256": "3077a8af4738a28c4b7c408a75772229fc225f256d77c14bd30a269a7ed7a93a",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/k8.svg",
+          "bytes": 102547,
+          "sha256": "7427108f0a894b26922dba90b47bbf49dbb9c7e4e40f97448bb9cec3f187102c",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/k8/manifest-fragment.json",
+          "sha256": "eba9f18d2ff45eee070075563f14c894a531ed1f54007bfe17c73c11adda61b1",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/k8_16.png",
+          "bytes": 357,
+          "sha256": "f3b6292af478bbee5a9d89ac8177211737db103da11c9c517f85b0575ad44b75",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/k8_20.png",
+          "bytes": 458,
+          "sha256": "de06d2c6857539c0bf4e47b0bfee787c193d288e2525c08245e53fd71636d6e4",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/k8_24.png",
+          "bytes": 544,
+          "sha256": "7316f0c73c489d3bae74ec003f330a984054b7a26fd63eaa41def096051eb8f5",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/k8_32.png",
+          "bytes": 721,
+          "sha256": "3077a8af4738a28c4b7c408a75772229fc225f256d77c14bd30a269a7ed7a93a",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/k8_40.png",
+          "bytes": 860,
+          "sha256": "4bdda2916fc33b1456257445468f2a0d4756d364c0dc4213fd2fb00caf90cb5b",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/k8_48.png",
+          "bytes": 990,
+          "sha256": "d27c40d27220ec5d59efae55d0a4f3e2c3b7892868bfccab98cae79f85fb1895",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/k8_64.png",
+          "bytes": 1434,
+          "sha256": "adc47721eae2fcafb8178fffbc02cc590f17860711f065070479b0e604fcea45",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/k8_80.png",
+          "bytes": 1683,
+          "sha256": "ed1f41eec748b7260dec563782ee14d66cc1e798dd064ebb0ae6b61268687ce7",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/k8_96.png",
+          "bytes": 2085,
+          "sha256": "b72608b22d0196238ef2f2149149cc30063a9ece30bcaf14075d89764740494a",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/k8_16.png",
+          "bytes": 463,
+          "sha256": "e9d5ef2a60724c7cb1cce771b09cd76365f605e9a8f2cf9a50ff11f315ce96f1",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/k8_20.png",
+          "bytes": 571,
+          "sha256": "7992d5387263adde5cc9632e9e94c42fdf17698170b6d6170329bc6052739dc2",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/k8_24.png",
+          "bytes": 677,
+          "sha256": "48c08f655ff4fbca5a89d4ae12e5fca04e48460f3fce202586e0e39df34bc73b",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/k8_32.png",
+          "bytes": 855,
+          "sha256": "95f7936cf65f29460077f2f42154b6e1417066eae954b69fb2ad689ecde1a2a6",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/k8_40.png",
+          "bytes": 977,
+          "sha256": "b7542bc73ed499317aa14abd309994c1ba29acd8d53f7f8fae274ecbd5982118",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/k8_48.png",
+          "bytes": 1070,
+          "sha256": "9a897f921e94f9a72a1d5e0440a38dca34b537e417dfc5ad9fea67c51769231d",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/k8_64.png",
+          "bytes": 1510,
+          "sha256": "369db15a3615140d33608d343599040f4f003d5214e2dcc56efd29152493eb4a",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/k8_80.png",
+          "bytes": 1786,
+          "sha256": "585d44d38539525e3920455bf26abc01b846c708a7aeb9995241d83513f3cb45",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/k8_96.png",
+          "bytes": 2182,
+          "sha256": "8c99eb1e1dfe8f6b7612e70cbeb37a5560525485e082ee2f4877df6a4051608a",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "l8",
+      "primaryColor": "#1E88E5",
+      "teamsForeground": "#000000",
+      "teamsContrast": 5.708,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/l8/color.png",
+          "bytes": 2409,
+          "sha256": "a9692ae5081fdc2a31122e4fa9ac35b7a6576dedcd066c24f99085545556431b",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/l8/color.svg",
+          "bytes": 102629,
+          "sha256": "71b09d0aeccc925e2915e8111f1833d73744cbc3a76f0acebd573b55407137e9",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/l8/outline.png",
+          "bytes": 672,
+          "sha256": "38e367c4bbeb29ed1b7592f972d061be70ad5afba007a8bb29962a1563ee7e83",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/l8.svg",
+          "bytes": 102547,
+          "sha256": "0b74f41279370170bf67af360bef70823134dd7fb8841199b590246c95dff129",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/l8/manifest-fragment.json",
+          "sha256": "bb3dffbe4247b1030e5bd73319714de81b2cf173b4476e382525e779eb70a4c1",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/l8_16.png",
+          "bytes": 343,
+          "sha256": "72252cca4187a302e76842f3ef7a033a5f94b73b3db885afa9fe3884f6a97cd6",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/l8_20.png",
+          "bytes": 422,
+          "sha256": "63312fb484878773998f6ac298d370f4b381a9c957d2981fbbcf9e2360a88bee",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/l8_24.png",
+          "bytes": 480,
+          "sha256": "95fa6a835c029c96f773b186178138670b4e327ef4644f47b0891a818a23891b",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/l8_32.png",
+          "bytes": 672,
+          "sha256": "38e367c4bbeb29ed1b7592f972d061be70ad5afba007a8bb29962a1563ee7e83",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/l8_40.png",
+          "bytes": 758,
+          "sha256": "b1b5786d77ebab44d9588cd4399579639ec3bf31bc2f700750ec3c5370e96767",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/l8_48.png",
+          "bytes": 862,
+          "sha256": "293b68cf3d2456771ee0d7946bde8ab8b99851ca5617d216160e71eb2f3b00aa",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/l8_64.png",
+          "bytes": 1274,
+          "sha256": "c365ce1eb7116fecc62ee03525008a1c695fe99916fd13d415e8ca3f34693ef2",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/l8_80.png",
+          "bytes": 1463,
+          "sha256": "3ac94abdfc5eb1823a3492afd1640424ecb995b703de934deba4df969e442bb3",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/l8_96.png",
+          "bytes": 1823,
+          "sha256": "5f4a882e7b6fb2ad6747835057f2281ee0edae16813ff5278a236631a6edfd38",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/l8_16.png",
+          "bytes": 442,
+          "sha256": "3de38473e3fe9287d9e305ffabf25767d2b480371ea531e7c678ef37797baa32",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/l8_20.png",
+          "bytes": 530,
+          "sha256": "d35d3afc7042b35b0759ef9d574763361476f87b5b8f659bc446926a03b8adae",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/l8_24.png",
+          "bytes": 630,
+          "sha256": "a88959bc2f7449c64073689a585177abfd7e73efaf8c34bd31476cde2759bc0a",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/l8_32.png",
+          "bytes": 809,
+          "sha256": "824726df158e2a000addcf135ff98afcecd7544b4cae0f3306f76b424f17f24e",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/l8_40.png",
+          "bytes": 848,
+          "sha256": "4a1504fbcae01cc400458b62bd95986b371438a04ccf7bcd4ada3fcb3803b78e",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/l8_48.png",
+          "bytes": 952,
+          "sha256": "840c5c38676c684c76fbce46a558b40f61b52723bd687f56d4fda6b360800601",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/l8_64.png",
+          "bytes": 1362,
+          "sha256": "aa3d57abd0706fac6269628ee6be29a384048ec2164189eae2c09e559f69d254",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/l8_80.png",
+          "bytes": 1611,
+          "sha256": "9bbfb3093b973b35d28e4fad0a60b3290b7f3397b55712312118932c1e4ec81f",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/l8_96.png",
+          "bytes": 1966,
+          "sha256": "889dcf30a133103ee84c8955713760a1bb02089e257f6af37f08d0637700dd10",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "m8",
+      "primaryColor": "#3F51B5",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 6.873,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/m8/color.png",
+          "bytes": 2539,
+          "sha256": "e19da06cccbde142cb3c31d9a4b878162f61fe72160c028870faa458bd565fc5",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/m8/color.svg",
+          "bytes": 102629,
+          "sha256": "df2c6db6ab404c6dc930380ab804ee33d7a853778737210b1970798def1c6f4e",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/m8/outline.png",
+          "bytes": 718,
+          "sha256": "532455b8cb2ae7ec67081adc5d797e830667a9198d8a66176a24a9843732f619",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/m8.svg",
+          "bytes": 102547,
+          "sha256": "0417f7a0c2628b04172a8b09c60e68a1634618cccb778f510b74b517162e3e49",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/m8/manifest-fragment.json",
+          "sha256": "9564179b02f816814416d0ecee413fb5ef88d1f3092a8b70f3c95fadf561f540",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/m8_16.png",
+          "bytes": 347,
+          "sha256": "8dd4e706077e8f4ce54c61a4904645ba77a6614d6cab6bdd2b77aa844e11529b",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/m8_20.png",
+          "bytes": 444,
+          "sha256": "1cde1a9606a730103fc6bb93bcfe5b12f420723951b0868239ec9239033f2b3d",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/m8_24.png",
+          "bytes": 517,
+          "sha256": "ec10fc4c0739745906b1cb89c41796282fc27f706cf95d836c60d2deed3caa6a",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/m8_32.png",
+          "bytes": 718,
+          "sha256": "532455b8cb2ae7ec67081adc5d797e830667a9198d8a66176a24a9843732f619",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/m8_40.png",
+          "bytes": 843,
+          "sha256": "23595903c6641ffd14678b71caf311d142907c9a3445ce5dfea1f98184ca0fbb",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/m8_48.png",
+          "bytes": 997,
+          "sha256": "52e02d7ea3b0ee3932e9c7d2bef3541b6a337cb36177125946f14f96c34de662",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/m8_64.png",
+          "bytes": 1391,
+          "sha256": "fd65bb6bf9ffb2bb67ff9586f1a65e57544ce39d103597e7efff9983fef4b103",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/m8_80.png",
+          "bytes": 1666,
+          "sha256": "36cb693b23637fc61ddd0a3cc6c43e2d679f52f442cc382d81b91fe7cf5c2be8",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/m8_96.png",
+          "bytes": 1985,
+          "sha256": "f0bde2cbb72c8fd8bc638fce3b62e523a7b81415bd4eebc0763461530648cd21",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/m8_16.png",
+          "bytes": 447,
+          "sha256": "1ee365da88abef35b28061f0b8ab40ebb5d7e9c49593aff87858846371b64060",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/m8_20.png",
+          "bytes": 573,
+          "sha256": "646b4a001949613afb1f117abd481b2fc35a14ab6c840007a4149c6c26990867",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/m8_24.png",
+          "bytes": 668,
+          "sha256": "06224de44d510a626f60c4415298a48760cbf1eb4e14de4b6bc5d4223384052d",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/m8_32.png",
+          "bytes": 843,
+          "sha256": "12d6b3fe5882c4e1714549244ca194b3cbe1526e097d5f343ab8214109f1e30e",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/m8_40.png",
+          "bytes": 973,
+          "sha256": "7b48bc1dc20f3672a6f42441a9108d598e73c86f8afe4db3cfed28af0172dbf1",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/m8_48.png",
+          "bytes": 1092,
+          "sha256": "3a050c035af13067ce579fab83a0752b8f200a03ff6d26ff5dde056b64aca189",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/m8_64.png",
+          "bytes": 1484,
+          "sha256": "a1e5758e1ba410d3227abefbb782782bd74c899ab06183de28755fe6c52cda4c",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/m8_80.png",
+          "bytes": 1834,
+          "sha256": "a1305edabbedf151d270055c9d163ecf7d0bdcfc1cfd93df0a24e064bd941c5f",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/m8_96.png",
+          "bytes": 2197,
+          "sha256": "63dc0da9086799a63390904be396f4f02591d7f5d187b5aa3cd2fd2add13226f",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "n8",
+      "primaryColor": "#5E35B1",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 8.015,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/n8/color.png",
+          "bytes": 2483,
+          "sha256": "fbcdacbb2ba70220ff3156332c026397423fc2ff0d80de15b9aef68fe0d522ba",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/n8/color.svg",
+          "bytes": 102629,
+          "sha256": "14b64669d59cea52274a4c9b44def518befc0ad1617e006685168785380db51f",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/n8/outline.png",
+          "bytes": 701,
+          "sha256": "dfbce173aa5b2713627c5ba284caed5e7a4f9f6d658b67ea563699fb4df60099",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/n8.svg",
+          "bytes": 102547,
+          "sha256": "7bb3d5152214096cc986ccaa6dab15eaf94d5c46bcf369a463fde7b6ffd5a956",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/n8/manifest-fragment.json",
+          "sha256": "908e1f282c369107da227b092b117cd7e2fc39bd075359b5c04481727498b5a2",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/n8_16.png",
+          "bytes": 345,
+          "sha256": "37e269c0a6cfa11054580503663307e4ffe68f6de86c512b0eec64b9d6a90aa0",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/n8_20.png",
+          "bytes": 432,
+          "sha256": "6cc0d88306f52cf343599b9b760bc1c9b318571136dcedeca34c321843dfa8b4",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/n8_24.png",
+          "bytes": 493,
+          "sha256": "f134dcb19092b8ecbc3ee68228fa3ca4ccebb6ccb4f3a353966faacadd8cef2b",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/n8_32.png",
+          "bytes": 701,
+          "sha256": "dfbce173aa5b2713627c5ba284caed5e7a4f9f6d658b67ea563699fb4df60099",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/n8_40.png",
+          "bytes": 793,
+          "sha256": "db18db9815e395cf6e4538e29bc162fdf39b26381a5f4bb1b18ff66601e6a78b",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/n8_48.png",
+          "bytes": 947,
+          "sha256": "50fad1bf73701fd9d70f3acf53a3ceb39bbda4efa087e669d6788930190d4f79",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/n8_64.png",
+          "bytes": 1262,
+          "sha256": "ca95fcab3ad00e889dce3f7d530ff514cde9cb0329965ee08339201f998bc1bd",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/n8_80.png",
+          "bytes": 1560,
+          "sha256": "715f382216619c2acc8f1fab08444d24758ecedc4a1df6683c397b3be492ea64",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/n8_96.png",
+          "bytes": 1906,
+          "sha256": "5cbf834fc998cc57140373dce10a8ba077f1ff237523eb8cc6d47687d86e84f6",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/n8_16.png",
+          "bytes": 443,
+          "sha256": "0ac962377209df159c5fe5ca74e8b835800f736fa59109f8d55ecb7b95bf301f",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/n8_20.png",
+          "bytes": 549,
+          "sha256": "56e373473a7dca15bfb46b838a44c46dc157bdbcc620dbfd5d506aba07407227",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/n8_24.png",
+          "bytes": 638,
+          "sha256": "38b3eeddd19ebb17b34e26200ed6611f4504c9daf56692a8c9277594b5a7bfdb",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/n8_32.png",
+          "bytes": 827,
+          "sha256": "85909eb83507aa14c73640b42cfd483d25a717a6b32221c3eadb8e79551fd65f",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/n8_40.png",
+          "bytes": 920,
+          "sha256": "00c5f373287fe3694e3a24ed50caa1dae2cc8713791b5a49883d1c629c0dee25",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/n8_48.png",
+          "bytes": 1046,
+          "sha256": "f9df8a31183d9dde0a55977faee995de6419b6c7462fa44a511f1bbb21e046f2",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/n8_64.png",
+          "bytes": 1375,
+          "sha256": "c85443083ef819f4ad82253f54b57817a0470f660a774492462a2c8293bdca39",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/n8_80.png",
+          "bytes": 1691,
+          "sha256": "18f80898205a1b2266378ff9507069f1a67d260a48f6cfd058b39757bc5eaf84",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/n8_96.png",
+          "bytes": 2027,
+          "sha256": "7949b6d7ac88f24b1f7959a679164f04d07f717e69d661de6fb3ee1abba2fc80",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "o8",
+      "primaryColor": "#4CAF65",
+      "teamsForeground": "#000000",
+      "teamsContrast": 7.627,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/o8/color.png",
+          "bytes": 2673,
+          "sha256": "1fba6c7337ebc0db6728a5c1328f082c146cdabbe4e9e769ab18b6effec68d52",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/o8/color.svg",
+          "bytes": 102629,
+          "sha256": "25155779dc7057884c8c35db2580a82b76633953dfc0665c7358c8cc19e275a8",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/o8/outline.png",
+          "bytes": 739,
+          "sha256": "2cec7bc17601264b521386ef298abc553936fb201c3882bbb887db8b790ca619",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/o8.svg",
+          "bytes": 102547,
+          "sha256": "88e37452c8f58646720f15588084daefd1dbb25ffee8b0f09f850ea107be4abd",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/o8/manifest-fragment.json",
+          "sha256": "fdc426ffe3d5c3ab3659b765641b294c171918e10698eb36228bb181ec069473",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/o8_16.png",
+          "bytes": 358,
+          "sha256": "b1d8e052906774975b98d40db9fe1bef5d33bf967a42736131719e72cbc3eab8",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/o8_20.png",
+          "bytes": 456,
+          "sha256": "6d27b05993d397040b8011ea96cfd5c77f942ed84823393ffb4fa463244df790",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/o8_24.png",
+          "bytes": 539,
+          "sha256": "cfe1e4a1722283990c20af19b533377b1c74ace05bd990710502e0f8ed3a8f7e",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/o8_32.png",
+          "bytes": 739,
+          "sha256": "2cec7bc17601264b521386ef298abc553936fb201c3882bbb887db8b790ca619",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/o8_40.png",
+          "bytes": 836,
+          "sha256": "397ce85cf40bef3a6ff269abc015f9173ffd31fb975255f604b1425413764e91",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/o8_48.png",
+          "bytes": 980,
+          "sha256": "d32cc4bedc50dc38a5750aafd12ec17395bade23cfa1360b2621d75372f51ed1",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/o8_64.png",
+          "bytes": 1356,
+          "sha256": "0cc2a0947d39fec6b6602301748659c89daae9acefd8955b1033c967cc1b99cc",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/o8_80.png",
+          "bytes": 1687,
+          "sha256": "9b5fca9ecbb330f5b7fe8aee265d9f55800b2468dad7686f7928157283757969",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/o8_96.png",
+          "bytes": 2071,
+          "sha256": "0a3499ab93b936b7f5d562203671b643b83cb8f08b9f4df00680f991f43f010d",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/o8_16.png",
+          "bytes": 468,
+          "sha256": "577a5a745471cf358b4a5c20097351851d506fc88777c77127d7e9dfed785009",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/o8_20.png",
+          "bytes": 578,
+          "sha256": "e13b6d75903a22afccf0d97d7b6fb9c8cbab2fa65745bb83a4a8ffda6e0c772b",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/o8_24.png",
+          "bytes": 688,
+          "sha256": "8f42fe83738c0da58c0e0ace814a116bed20f9bddc8c7d34784ab54c7ae66248",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/o8_32.png",
+          "bytes": 869,
+          "sha256": "c612efcf5632af0db198d7033b31268e945302e4040a286fd46f45a51cc7f503",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/o8_40.png",
+          "bytes": 943,
+          "sha256": "1cef3b89f347c4b83c94ba155afe4d0b23972cd5252db6f3fb51e555ec7f4f75",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/o8_48.png",
+          "bytes": 1083,
+          "sha256": "b9f2239a5b7a4f1cf43b4e3c8d5cff3e2e2496ef3cfe23aca4f45329b92c80fd",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/o8_64.png",
+          "bytes": 1450,
+          "sha256": "622096747d90a4a85dc8a47ac1bb7c38122e07a54b33d9ed07d4451c0b9ef98a",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/o8_80.png",
+          "bytes": 1833,
+          "sha256": "2d0bd3a28caea25a3c76e3d305146c81aa7c1949bed90370bd96b6e0a3c47740",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/o8_96.png",
+          "bytes": 2190,
+          "sha256": "e104e628a87aa98f5a35c4d36b43d15151ccf5b9d8dd089312d63fc14105a039",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "p8",
+      "primaryColor": "#AD0B5A",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 7.065,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/p8/color.png",
+          "bytes": 2654,
+          "sha256": "af954788c15a56de0e7c9faebd437651bfdf60e365aecc982c72af30a28a9c2c",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/p8/color.svg",
+          "bytes": 102629,
+          "sha256": "f53dc6facec4cef4db62ed34f32ee34aa7e02228ec2a283ca5fdb129e1f6ff36",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/p8/outline.png",
+          "bytes": 767,
+          "sha256": "a6c5b4f45fe372219278f3ee9de8af6cb6183f356f37800bfef50997f6b7e301",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/p8.svg",
+          "bytes": 102547,
+          "sha256": "9a206b3415ced80d4f66d5e2a6590b962bd9e480df733a571ae4416518e92ca0",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/p8/manifest-fragment.json",
+          "sha256": "b65d5244560bec8c7eba120bf209396840213250b8fdb29ba0e335640651c431",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/p8_16.png",
+          "bytes": 368,
+          "sha256": "5857baa7ac16f073393060ae9f171e982cfcc91a3e3c7a18faa76dea69a598aa",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/p8_20.png",
+          "bytes": 472,
+          "sha256": "72d920370a00472a2672f3b7bdb1095ea77674d0d99d84a79febb2b72af4495c",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/p8_24.png",
+          "bytes": 538,
+          "sha256": "2c47b180ed947a9383a2ee4cda04ec66aa1f4280b7eabea2f3bae166027220f1",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/p8_32.png",
+          "bytes": 767,
+          "sha256": "a6c5b4f45fe372219278f3ee9de8af6cb6183f356f37800bfef50997f6b7e301",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/p8_40.png",
+          "bytes": 876,
+          "sha256": "222a77c75818f2aca8d94842c87a133a582a0bf1aa923623f2146c3b68640f8b",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/p8_48.png",
+          "bytes": 1039,
+          "sha256": "1155fe2d22100dbf33988663c802eec0b0567b72e4f510aa66fd2f1d1d7d096f",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/p8_64.png",
+          "bytes": 1433,
+          "sha256": "804e620c2f710af13c4e6d520a67d392f8dbe9c9dfc3a0e66d6716a18eeeb5cd",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/p8_80.png",
+          "bytes": 1797,
+          "sha256": "7448432f98873f7e463487c30dc668606a0b1aadcff2f793656c99a306acda64",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/p8_96.png",
+          "bytes": 2183,
+          "sha256": "173a7fdb424d6ff3aae7175b3ba62c0b49cd019a0e6773c4235d0d8d18141c31",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/p8_16.png",
+          "bytes": 475,
+          "sha256": "5653251c2ece9485b68eecd79fd6d974ed74f0e71aa5574e9859284552983e9d",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/p8_20.png",
+          "bytes": 580,
+          "sha256": "01a312646e476e51fd8444f9a73d757297a8ca71cf95ed620324f8834ba68ffc",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/p8_24.png",
+          "bytes": 686,
+          "sha256": "5514c5e42fbfa6abb98ae58063dc7970fad1cb58248a0e92e0d5d7aec864e6d6",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/p8_32.png",
+          "bytes": 895,
+          "sha256": "d7c5759d94780e8b3665259c103b0d37ebaa9d9489537a13418b21dcc6d8b986",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/p8_40.png",
+          "bytes": 985,
+          "sha256": "380b7ce79362a6b32e2d4a4bc4f6dd9f5f7fb7dceda8b7a7e99a2ab25fccbadf",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/p8_48.png",
+          "bytes": 1132,
+          "sha256": "db6d350925e9392546c942515f68d652c5fea7a434f2f534556d6b4bc1c7acc0",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/p8_64.png",
+          "bytes": 1555,
+          "sha256": "8576fc14055ef568cd435e1bf3f46de84b4a67ee50cb52db99650acb64d43578",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/p8_80.png",
+          "bytes": 1889,
+          "sha256": "e54937bcee85dc1bf889dccd8451997ad5ad53720637246c2475430e66d9954b",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/p8_96.png",
+          "bytes": 2303,
+          "sha256": "504cf62b34a31409fce7181c958db1c83c0eee8b6a82ba4b761e7387b7aae858",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "q8",
+      "primaryColor": "#C2185B",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 5.873,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/q8/color.png",
+          "bytes": 2616,
+          "sha256": "b251c48daf14521b8bde1429d8d27ef955536f1990db602ac6e2d2cf77dec662",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/q8/color.svg",
+          "bytes": 102629,
+          "sha256": "827e78475fe2f8c761fbb6fdf3b4981a4d06354d7bff4ec96ea629e6a3821c65",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/q8/outline.png",
+          "bytes": 768,
+          "sha256": "45a21495465daa7171744a4a1cd173d5f4009a6614f982e0e925803f910213cc",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/q8.svg",
+          "bytes": 102547,
+          "sha256": "63c5a55d733df50c4617ee2ad0b729ca2f206c9128442e56fc5a97d83f1076d7",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/q8/manifest-fragment.json",
+          "sha256": "bf80c965c52940a85284d91981657d5b810c66e6b5514ca12cc26c50bd246d2d",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/q8_16.png",
+          "bytes": 364,
+          "sha256": "7224ace559988d80949a2b2118d95d23c2521a7f7bc19acae89cb9861cbc1bfb",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/q8_20.png",
+          "bytes": 470,
+          "sha256": "009cd412291367207035d2a64daf0a6698a77bba63c0965cb892b3eacc22fcca",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/q8_24.png",
+          "bytes": 558,
+          "sha256": "2e3f8ee1db06f0f8fbd19df5ac84569bc463629707d7a795fdc3b685c4d0487b",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/q8_32.png",
+          "bytes": 768,
+          "sha256": "45a21495465daa7171744a4a1cd173d5f4009a6614f982e0e925803f910213cc",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/q8_40.png",
+          "bytes": 828,
+          "sha256": "65b60ee83c7a5e3715bca93c9a1f18dea67826e7f7dbac918b9399d89248e846",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/q8_48.png",
+          "bytes": 994,
+          "sha256": "e17537c12eeeafb56a36267c6709aed8e596df4ce2301135e7fa22afcb80f72c",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/q8_64.png",
+          "bytes": 1338,
+          "sha256": "6aa30299dd0f55fe7c3873936b89e96db8d79d8ddb07407331d598f7ede3990c",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/q8_80.png",
+          "bytes": 1676,
+          "sha256": "fef73b9631677ba972bd8bb08f7800904c6e2aebd27c1b1bed5f5519f84431cb",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/q8_96.png",
+          "bytes": 2167,
+          "sha256": "d8f0c22a725b08af1ed1357ff3e8f48ea8840f3042a0d4b63c04b3eb7626afdb",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/q8_16.png",
+          "bytes": 467,
+          "sha256": "8058e0c4524016afccace44df36520b2c6b51e4b8ffe3dcd0dd4aac4c706f285",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/q8_20.png",
+          "bytes": 585,
+          "sha256": "6fe7cfe7b3b9d895ee956e33d8db08e3e96fa434b48f12b4083d7149020f8ec8",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/q8_24.png",
+          "bytes": 702,
+          "sha256": "63735253048be3508a4c89175af8bcfa9bc05198c30d6551db080fece4e19e8d",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/q8_32.png",
+          "bytes": 914,
+          "sha256": "d8d5f1a2e2c0b3774ae03a7e8e5b5c23006914c22aa5bee40cbd30cad5ebe2cb",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/q8_40.png",
+          "bytes": 974,
+          "sha256": "9619744044353a0995fa7676c512efb3d9ca1505e7d74f66642bd0da0183110d",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/q8_48.png",
+          "bytes": 1094,
+          "sha256": "bf34c0b25cbc8ba7b53d2dd648f2c79dcba4fea76793c5746f5baaa39110c5cb",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/q8_64.png",
+          "bytes": 1495,
+          "sha256": "5081523bb680517c0d8936b91fdc1062fa04b4170e286ea2073498ab3e7e7e00",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/q8_80.png",
+          "bytes": 1923,
+          "sha256": "20ec1ee02740405ce23f5bd2a7d0d3e5c0d3a23b7aa70ba3ee03e6df360dca92",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/q8_96.png",
+          "bytes": 2259,
+          "sha256": "18072e78a3cb125923db45bbcff8da7a5b79aeb3feae533f14915b269969948c",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "r8",
+      "primaryColor": "#D81B60",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 4.946,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/r8/color.png",
+          "bytes": 2434,
+          "sha256": "f21ed8047b945f0b51bce05d8b210cf8a3eff1225beb2d195c0fc1dd1397fed7",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/r8/color.svg",
+          "bytes": 102629,
+          "sha256": "0986b375a804b2d7bfb741c0555bf646767e03ace1a9ffe2c6ef2b1a08d1c23f",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/r8/outline.png",
+          "bytes": 683,
+          "sha256": "a1f766b878807aa9fd0289f1146455fce215a137e45b803a948affd673c8cbd6",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/r8.svg",
+          "bytes": 102547,
+          "sha256": "144c89415ee0696727d93e28b4b3cc5f5fa6005ecb7aa212d928c441e43edffa",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/r8/manifest-fragment.json",
+          "sha256": "ba8ab498b85f8bd76dc4e433094250a015e9ac5be6dc4359ca1469e97152a0e2",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/r8_16.png",
+          "bytes": 347,
+          "sha256": "ac35160dcd4b89877214bd0648f157a465bfed7f882af1aff43432b22d9284b7",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/r8_20.png",
+          "bytes": 433,
+          "sha256": "e377ce5ca2c8467861c46246edfc484aa30b5daddc94646e85c373d3dd34c145",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/r8_24.png",
+          "bytes": 510,
+          "sha256": "732e352100a0f7111363024f5605e6b2f98109a875a20a8dccf009809d3de4c5",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/r8_32.png",
+          "bytes": 683,
+          "sha256": "a1f766b878807aa9fd0289f1146455fce215a137e45b803a948affd673c8cbd6",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/r8_40.png",
+          "bytes": 754,
+          "sha256": "7e14d2bc9e53cd806fc7a0a42595f912d2317dc50b2a6956615735cc89b56e2c",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/r8_48.png",
+          "bytes": 881,
+          "sha256": "179ae66ab102c3c547e472cb013cd56afa2395c688c18dfe43423f8f6383237e",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/r8_64.png",
+          "bytes": 1247,
+          "sha256": "eaf833c7fcb48bbc1d40df7a839efa9a2c1560726ebe8615a23f7575c83dbf2a",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/r8_80.png",
+          "bytes": 1591,
+          "sha256": "e5b2f1481b8f94fa231adf062d19a5fcf09fc46eb0304037ba9630ea954ada0c",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/r8_96.png",
+          "bytes": 1823,
+          "sha256": "33f874b28154ae4f425f27278232e614512be3cf75190b4b6b2905bfa89b7e1f",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/r8_16.png",
+          "bytes": 448,
+          "sha256": "2e09182485b3397e6c136dbbe8765bd4296e317b4f66110caccb266a317b1e4b",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/r8_20.png",
+          "bytes": 549,
+          "sha256": "8e7718a8e364f0b473b22f246df4af06bdf99ad6dcff49d5cdea983f48a72d15",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/r8_24.png",
+          "bytes": 648,
+          "sha256": "5020cae9c08df46cc032c6e607b6903815a32d308c45f574bc6e956a72dbbd1b",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/r8_32.png",
+          "bytes": 821,
+          "sha256": "3286a1c6e725b47a0646d22f2158d147663f56be722c9efe9040ebabd7ef4970",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/r8_40.png",
+          "bytes": 853,
+          "sha256": "9b6eacf834955e9f7d321de27f5af7686d22452ed2e784bcb6e136c6893b067b",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/r8_48.png",
+          "bytes": 976,
+          "sha256": "65ac8c9bb8edf1c52d9add963a375c2fe6ccd9df7cb49ff42521f518c552916d",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/r8_64.png",
+          "bytes": 1342,
+          "sha256": "ff1b356f791d43cd4273e238a80efcde5519425fbf5db6ff2c24101eeece9cb9",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/r8_80.png",
+          "bytes": 1690,
+          "sha256": "9f1a6e0c30e954cfefc956df6fba2aea525e35b5efe763b4223f341377ad60c7",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/r8_96.png",
+          "bytes": 1939,
+          "sha256": "cbc4c96b76dde52dc4dafdc6224d5eb656b879a73769fd9e5ccb01dca14d1f77",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "s8",
+      "primaryColor": "#19747C",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 5.482,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/s8/color.png",
+          "bytes": 2665,
+          "sha256": "51f8f391983cea532d225746bb4b9179f1a2cdb72cb5a337170488ecf2c9449f",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/s8/color.svg",
+          "bytes": 102629,
+          "sha256": "552ded68bec6155e5626a7c1a2abd741d959b20ea696504e65c2a42154996b78",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/s8/outline.png",
+          "bytes": 731,
+          "sha256": "e0256b9c5b1b581b46c6e24eb3bf091b87de67bd8ea7fb121e8c93027559ed83",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/s8.svg",
+          "bytes": 102547,
+          "sha256": "beb1dfb85292c81604bb6621dcf4f6e6eff60869c203dc000f534b7f11f1aa94",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/s8/manifest-fragment.json",
+          "sha256": "9a4776eb1d1276867e3b68bbf9d7fbb5a24e659537ff275f5a1710ba3b018664",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/s8_16.png",
+          "bytes": 351,
+          "sha256": "e1a0b8c6739e8734459a1598c59c5a3b5c73a3f583b095b8923cda7913457f38",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/s8_20.png",
+          "bytes": 444,
+          "sha256": "aeb7f0c91d851c9dd36b70af17df6fe3eb01e6c4e2d5c61cc3ac1f04e85cb320",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/s8_24.png",
+          "bytes": 520,
+          "sha256": "531f1a3967bd15c85e13e7d048618432372167b29d064037f7fae009b8cb9c3b",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/s8_32.png",
+          "bytes": 731,
+          "sha256": "e0256b9c5b1b581b46c6e24eb3bf091b87de67bd8ea7fb121e8c93027559ed83",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/s8_40.png",
+          "bytes": 820,
+          "sha256": "e1d32e595377767ccc4b333e6f888dfa8d1a76271e3e53d02b48edc29c8b4ca7",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/s8_48.png",
+          "bytes": 984,
+          "sha256": "0c9123ed6aac653691b1d2236a962a14de52a8d1fb499a7b168e9dab909161e6",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/s8_64.png",
+          "bytes": 1370,
+          "sha256": "00bf91ff0626ce41fc53dc5a7182e2df4f2fcf108e33ecb8c437b86f54823967",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/s8_80.png",
+          "bytes": 1697,
+          "sha256": "c1a380dc50e2d15643da0b5115fd6450fa78986932d2058766caba7126a78185",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/s8_96.png",
+          "bytes": 2039,
+          "sha256": "7c9813f64b2ba8b2d6c34cf3b5589e1e6477649c6cf707c153c56b8a6eea72d2",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/s8_16.png",
+          "bytes": 451,
+          "sha256": "2ccb271a685517cf4f825fd6976d79bf8a4b7c7d2b3561c7ce60ae785738c134",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/s8_20.png",
+          "bytes": 571,
+          "sha256": "7bb27930284aa25489832684c6e1772ef1c94476d94fc75e11c174d0cd40cf00",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/s8_24.png",
+          "bytes": 673,
+          "sha256": "243c27084412f04357205982f8fa1cb290338d7236692306411d9ae14914d5eb",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/s8_32.png",
+          "bytes": 863,
+          "sha256": "24e7dc879cb52ef97227909f61a01c1234ea0a47ebdab88f7ff87f2384a96e5d",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/s8_40.png",
+          "bytes": 930,
+          "sha256": "9f3ac6ce20aaa92f19c6d26532c7b644021aae323665b38eb0aa4e16dd7f27eb",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/s8_48.png",
+          "bytes": 1079,
+          "sha256": "c08ccbcb8da66d0e1af31489b34a792561621504b6170a582804c0f4d65bf4df",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/s8_64.png",
+          "bytes": 1484,
+          "sha256": "6affbdd2827493a40bfecd41fd60956c8f253ae90eae0d17c88eb91f10ee7d62",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/s8_80.png",
+          "bytes": 1828,
+          "sha256": "28c67107181c9f8a5d23695432d619419e14dc8f840845f18305786d89efa836",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/s8_96.png",
+          "bytes": 2192,
+          "sha256": "e3d30a39357ca975fc12ff92964a5a9bbc32c17a9a3a20ffb821b37f15965e4a",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "t8",
+      "primaryColor": "#00897B",
+      "teamsForeground": "#000000",
+      "teamsContrast": 4.864,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/t8/color.png",
+          "bytes": 2476,
+          "sha256": "0afe7f62a8792ddefc79ab3e2f3a7b2e6818aabdb2ad7fe8ef8bc0644f8fc216",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/t8/color.svg",
+          "bytes": 102629,
+          "sha256": "9d6e90158ed37e81e493b405432b41f188bdcdd2bb5fda94e10cd2d62a867720",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/t8/outline.png",
+          "bytes": 724,
+          "sha256": "2d18c43df934da1ab5c60b459e8f0ff52c7ff2d2d617f94317aaeafd938b9496",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/t8.svg",
+          "bytes": 102547,
+          "sha256": "0705a2fe9fd10597a8c1763dda9c1a08af92444fd67f146745ff4c101ad0e811",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/t8/manifest-fragment.json",
+          "sha256": "42c76a4541b59b8e2f96c20797393e857a5f0bc26611827d4bf6f91f5681d23a",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/t8_16.png",
+          "bytes": 363,
+          "sha256": "fc3d3aadf37a864b2fd142bf7c7e046e5702e2ba3ee4ed5a569ee6fcefbb5c65",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/t8_20.png",
+          "bytes": 451,
+          "sha256": "13211d921a0e1209985b71ec1dc9cfe666b3881acee97dd59d6073e27f36a623",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/t8_24.png",
+          "bytes": 522,
+          "sha256": "ec85f4de81e2c37e6abda28082b20baa2a4f78734bad436fc5d2cc433dba0666",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/t8_32.png",
+          "bytes": 724,
+          "sha256": "2d18c43df934da1ab5c60b459e8f0ff52c7ff2d2d617f94317aaeafd938b9496",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/t8_40.png",
+          "bytes": 797,
+          "sha256": "d900bddd174b5d2230e5c184a785769652646d1489372eff7404056d7f7074ba",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/t8_48.png",
+          "bytes": 920,
+          "sha256": "60836981be18a3744003e8e50ce39fd7374203b8f967a218d0b232ea55a96241",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/t8_64.png",
+          "bytes": 1267,
+          "sha256": "9d2e90b49f1e4beb791c3cf9dd25c1be57f4ed5ba063f91df7c81f3409dac611",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/t8_80.png",
+          "bytes": 1602,
+          "sha256": "31d4b8b1b7f029c2bd230168c631258a4cdf972de2a6e3c67da5520ac6cd2458",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/t8_96.png",
+          "bytes": 2053,
+          "sha256": "d28beca3119c0cf3c4395d99a90ab65205b0bee79495d17390c6b89537870115",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/t8_16.png",
+          "bytes": 467,
+          "sha256": "1f42775919097422d8882ffa2d47b2baffaa7c2b33c52cd09e240d7d098191ff",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/t8_20.png",
+          "bytes": 567,
+          "sha256": "8872fedc21a44f39f91f3751dd0b9174a90fdd16eef83e27ad2dd1224ffdc9f6",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/t8_24.png",
+          "bytes": 668,
+          "sha256": "802354f319a0b36890c8b2b0945ee7a1266971bdf13d73e01e56e47491993aa8",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/t8_32.png",
+          "bytes": 870,
+          "sha256": "bf523e13c0760479e12af3d5fa553e469e81826afb1423199a7afe7b2a12bbc3",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/t8_40.png",
+          "bytes": 908,
+          "sha256": "2e3a4cfaba8ddb838a18ffbd73815f4473478400f3f1f6c4c2b28e1fdcb33fe6",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/t8_48.png",
+          "bytes": 1026,
+          "sha256": "fe116945b43d9d55f07b6b0dc2b04d1b5b4e185ee1fee292c38e9ce21b9d5141",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/t8_64.png",
+          "bytes": 1390,
+          "sha256": "adf7f2f89160c6e62de110ac3356a2343f9beaf0f2c633fcdb4a5260a497a54c",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/t8_80.png",
+          "bytes": 1710,
+          "sha256": "d773aba5ed9fdb552cee73a6a5db195638b5a18bab5c4cb450cd6473436c9d97",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/t8_96.png",
+          "bytes": 2142,
+          "sha256": "696e8bb9e3e234d9b3a1acef3226fe8c37dde5c2ce1c10169893c70c419e6494",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "u8",
+      "primaryColor": "#7CB342",
+      "teamsForeground": "#000000",
+      "teamsContrast": 8.384,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/u8/color.png",
+          "bytes": 2535,
+          "sha256": "e2807a5d794641ce5960de65e812a082b066893cdab5b3e38ce1651bb45b8db2",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/u8/color.svg",
+          "bytes": 102629,
+          "sha256": "336732d5ac468accc5773d6eed8298c63d14eace2acf69f527ae4d10e152d277",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/u8/outline.png",
+          "bytes": 719,
+          "sha256": "3d9c04190ae2540e14c49dee3849001a69a7091d1d2cf0087012d48ce6a65c87",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/u8.svg",
+          "bytes": 102547,
+          "sha256": "acdd19e6446cd12c90e5dcb7bd373871195ac78e77269bca71e7edb3e7d7cf57",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/u8/manifest-fragment.json",
+          "sha256": "38bfa0fb0672c1c498c923547ff5afec8e5c72f207173bc52b6a95915406b7d1",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/u8_16.png",
+          "bytes": 343,
+          "sha256": "24269be711f9d3f7984040d76a354aed455b444354f193bd9f75fe23324a4963",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/u8_20.png",
+          "bytes": 442,
+          "sha256": "144125a135a35ddce77617107d390fcb60b1770c4bad0ec061007f5bf798d4f3",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/u8_24.png",
+          "bytes": 518,
+          "sha256": "e58193ea10581b66f27799a33d7346270b6cc2ab720e5142eb06702a84b46530",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/u8_32.png",
+          "bytes": 719,
+          "sha256": "3d9c04190ae2540e14c49dee3849001a69a7091d1d2cf0087012d48ce6a65c87",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/u8_40.png",
+          "bytes": 777,
+          "sha256": "949c23dc8817fe555a1ff9a85c1dee05e98a71ded434959844cb6382ec2bd916",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/u8_48.png",
+          "bytes": 941,
+          "sha256": "8ba40bbd1a9ae09b88c0d3d9fc2df5b442759c1783ca278cf04c4d293cf72fda",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/u8_64.png",
+          "bytes": 1244,
+          "sha256": "d253d57a9d9cf44b69132425d13adffb8154569c9eeef3ec87d766c859eda0d4",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/u8_80.png",
+          "bytes": 1602,
+          "sha256": "383e70a927f499d57c02cf1b282254fe64edc25db1fd1471f6b3543640c04088",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/u8_96.png",
+          "bytes": 1929,
+          "sha256": "019fea69315cf0e475d41e787c27b2d9ff7459958ad56078cb3ede75c770a832",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/u8_16.png",
+          "bytes": 444,
+          "sha256": "3ac02aaf5864510957ef431636c2cc85507d9f78755af64a39339fcb3c3eadb8",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/u8_20.png",
+          "bytes": 561,
+          "sha256": "78e08f00f534dec3a1c9c0ed0a08bcfb5b61d20bdd270be297d3940a666086f1",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/u8_24.png",
+          "bytes": 675,
+          "sha256": "3fca0bc25dc86fdef2d775f8a779a14b7a21f67761368acf53d6f50be6a85163",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/u8_32.png",
+          "bytes": 866,
+          "sha256": "a77d73979044b5e04ccf001ea7b5628ab8e55d6d084054870e4e334a93c20e32",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/u8_40.png",
+          "bytes": 908,
+          "sha256": "06d0d61e202269593929839aca74b2328e5a9904657f01dc9153bc0e5bb566f8",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/u8_48.png",
+          "bytes": 1043,
+          "sha256": "c311a3af0c0d371f0ef43351626c879e36f4dbfb240295bf46533fe66b289989",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/u8_64.png",
+          "bytes": 1335,
+          "sha256": "8508c971b2a47b618c81279283671910e1a7eef264f40e96c1d007f50073982e",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/u8_80.png",
+          "bytes": 1721,
+          "sha256": "9b15e246aa2a20c7deeb769d83b270b377f2bae43d2e323e96918c12edc5eae3",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/u8_96.png",
+          "bytes": 2068,
+          "sha256": "73fb30c3829773881c11233c57799c5e3a53d493e4c8f3cf18a6a1236d4520fa",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "v8",
+      "primaryColor": "#6D4C41",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 7.608,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/v8/color.png",
+          "bytes": 2560,
+          "sha256": "c89590b5aa8dde5f5d5bdc86616df007a3552693764a16b92efaa1f81713d10a",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/v8/color.svg",
+          "bytes": 102629,
+          "sha256": "60eb181f7fb4797293e504c7924d48f2d05928f29ea0ae129ebc7c2a1ed13857",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/v8/outline.png",
+          "bytes": 726,
+          "sha256": "7430f7310ee66607e2c6c10d047f70e8effbefef136e86320621648b46328d86",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/v8.svg",
+          "bytes": 102547,
+          "sha256": "53397e1a7c49265ab424cf2d33eb5906c673e833a9ac03efa6821c8c352a6d9f",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/v8/manifest-fragment.json",
+          "sha256": "84606637b4843ee9da8dcd9bbc738670efcd93e13069e707a2ec0d9106150f14",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/v8_16.png",
+          "bytes": 354,
+          "sha256": "4d39374e8f823c94a66c47567f05ef9e1c4a1552af2d0669f29b11c6ee3807ce",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/v8_20.png",
+          "bytes": 445,
+          "sha256": "9c581d6795de9b965d1af68be7f5389e0c68047ca9217d29eb78883b3eaa1d47",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/v8_24.png",
+          "bytes": 527,
+          "sha256": "48218fee92f805230e6403437e9e3e220bcdcee477fc146c47a553b356d02757",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/v8_32.png",
+          "bytes": 726,
+          "sha256": "7430f7310ee66607e2c6c10d047f70e8effbefef136e86320621648b46328d86",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/v8_40.png",
+          "bytes": 832,
+          "sha256": "321d5f807a90211d49172f128445717272585b5841be1b3eb12d1a7fe0d5fe19",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/v8_48.png",
+          "bytes": 989,
+          "sha256": "5f40f4d9f419a8609235dbd523395f9d7f2799b9b9e7bd3db7a5d0c31b6eaca2",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/v8_64.png",
+          "bytes": 1352,
+          "sha256": "c455ba463d2abb7125a728abcc3159b299c47058a9175b086225c43f2b457357",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/v8_80.png",
+          "bytes": 1696,
+          "sha256": "de96651011a156512c4d3a871ed14892cd445c4af67bfaff6fe5700d484cb4ef",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/v8_96.png",
+          "bytes": 2053,
+          "sha256": "c995dde760150ffb838b4c6b2731e7adc56a5e079f7ce6cf09a75f2da0521105",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/v8_16.png",
+          "bytes": 465,
+          "sha256": "1481afb058f3ade5feed220fb35018025125e972e5a6579626bc085d4d365ea8",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/v8_20.png",
+          "bytes": 571,
+          "sha256": "0a5009a23b91227c3ac01dff057ca75308d2cc733b4a4d1eb1b7ae55cd75fa1d",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/v8_24.png",
+          "bytes": 674,
+          "sha256": "c5ff3c36e1b3725d63d7f04e0d9e0bf0c5bff70987cc15662a540c7256cd12a6",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/v8_32.png",
+          "bytes": 852,
+          "sha256": "7712f2ba848e8a1b3d879474a5efbb0d30ee503a44acc440eecd1e9a43f6328e",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/v8_40.png",
+          "bytes": 944,
+          "sha256": "49dc085e44361fcc2e7602378f725f1ea36a94738652030061dde94cfca37cc3",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/v8_48.png",
+          "bytes": 1076,
+          "sha256": "479e4493dbc65018af668acbaff7e80d4c0ea5b92620bd1be84935f1a25e4c51",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/v8_64.png",
+          "bytes": 1433,
+          "sha256": "ba63376839d7294676924897fa686efb8b2d55dbd497f0bc73dc4eca87382f82",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/v8_80.png",
+          "bytes": 1835,
+          "sha256": "e68e79818144006cd94f6aaa829f3894bd021baa5a4c40a77341a15d45d3a8b2",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/v8_96.png",
+          "bytes": 2176,
+          "sha256": "d39a7e89808b79cfb3c4d1643289b6ed8ace2b40de8e7b6ba98b621c25fd352a",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "w8",
+      "primaryColor": "#795548",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 6.55,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/w8/color.png",
+          "bytes": 2721,
+          "sha256": "4f98e324dcb0b38e2c849bdfcac0cf3d385b391e280e3b02008869adabf7fdb5",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/w8/color.svg",
+          "bytes": 102629,
+          "sha256": "9a95b9975a079495959aa43fd8e62ea29846fd8526882c1e5586897912a5193c",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/w8/outline.png",
+          "bytes": 756,
+          "sha256": "0e93a31b91a1a61004a2a316dea2d390cb88fe16564625ad7e4bd7fcc9a09bd7",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/w8.svg",
+          "bytes": 102547,
+          "sha256": "0b3f86caac2cc439dfc5f4b04b42551560d287286a43be3389015feebb3d0b09",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/w8/manifest-fragment.json",
+          "sha256": "654d67440ad9dd0f6e46f9aa304f88325cbf0a55857c175e110eb276cf73a528",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/w8_16.png",
+          "bytes": 352,
+          "sha256": "401da60424a85bc4a63433f4e892d8e0a4648ff473cada67d64c44abe7e15f91",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/w8_20.png",
+          "bytes": 448,
+          "sha256": "cd0534828294c289e11c999937b8ea873c36b613b2c915f783dcc73a198caa3e",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/w8_24.png",
+          "bytes": 555,
+          "sha256": "10bcb553bef91aab1af056f09a8d6451ee28c8955e7e9786fcec89e45bc6ec05",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/w8_32.png",
+          "bytes": 756,
+          "sha256": "0e93a31b91a1a61004a2a316dea2d390cb88fe16564625ad7e4bd7fcc9a09bd7",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/w8_40.png",
+          "bytes": 876,
+          "sha256": "c748cbf0cb209356182e7276eabbeeb760d4d9f733fffa4f37c6ebcd3a451d89",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/w8_48.png",
+          "bytes": 1050,
+          "sha256": "f3c6c9e2734a081e50d2e5ae3217eed92970fda26df781f54e3e4e3691ca34c7",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/w8_64.png",
+          "bytes": 1449,
+          "sha256": "b756c8b09d8c23714037527a42929ff00ff4ed04585f32b80f2cb1f75287bc13",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/w8_80.png",
+          "bytes": 1848,
+          "sha256": "fecb5732a7af195d0cc6eebd8bf4ca19f3284e17a60e0434cf68ff2101e8564e",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/w8_96.png",
+          "bytes": 2223,
+          "sha256": "8a10d42fe515133b10397eb32f555afb319f4e506c1e268bf73ac4099e44f59f",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/w8_16.png",
+          "bytes": 463,
+          "sha256": "7aa96518b2e6b965374f9e2e21215092382fa851a550505d8860e1650337a1eb",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/w8_20.png",
+          "bytes": 593,
+          "sha256": "33e4468d6ede21583a23a3c97e75ff5e396bfd4a0ac4ef36d493649e63f11ab8",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/w8_24.png",
+          "bytes": 706,
+          "sha256": "9e2cf29c0efe88e504b0df9c7363b0ad96b2cf6123da136b7343122b7a47842f",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/w8_32.png",
+          "bytes": 892,
+          "sha256": "0df6f50b202e2fe89bde6653b5583f3de718403b81b55cb243e33aa4a118dd30",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/w8_40.png",
+          "bytes": 991,
+          "sha256": "82cbfb9afefd24ab3285fbaa893a4af47ba7652f37a16a475fe6ddc8ca047af9",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/w8_48.png",
+          "bytes": 1149,
+          "sha256": "de3b8f422a3a85d58c2e956766a43024ab64e651a46ee95f81022d2ad056a397",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/w8_64.png",
+          "bytes": 1557,
+          "sha256": "45d18ad976f96a9aa097be00b1d6c7188281d4f5a07cb68b94759eda34b4a318",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/w8_80.png",
+          "bytes": 1983,
+          "sha256": "4bc93bb3141b6114319c790f66a4dd3793594b9408a944d0a352ee45ee8871b3",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/w8_96.png",
+          "bytes": 2393,
+          "sha256": "795061e37b28e1a49f0ac0d2caf16d6c3c2cc78081d498ee8b6151b4b06391a7",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "x8",
+      "primaryColor": "#455A64",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 7.243,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/x8/color.png",
+          "bytes": 2641,
+          "sha256": "5fa274b0c0e4831c19ba4e7fa340b9f24164a274fc0ec2657412911d93aa5690",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/x8/color.svg",
+          "bytes": 102629,
+          "sha256": "4523e2ecf70960c454550c4e096d6084ca9407a33d77537bc8b0e996d0d5da6d",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/x8/outline.png",
+          "bytes": 731,
+          "sha256": "6bf8a68a2c678f72bc061657dfb423e4d4c1873c91ff43960e370d3cde15c61b",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/x8.svg",
+          "bytes": 102547,
+          "sha256": "afd677df49e0af1884af03acd3310b3295cabae38cd1509004f6b333dd16457f",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/x8/manifest-fragment.json",
+          "sha256": "8fe45ef50576c8f6d93c7b649db061e60a8445b0bd6843afeca3d755231d917a",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/x8_16.png",
+          "bytes": 355,
+          "sha256": "28e4fc614a0f416a5fb5325d4f77096c0a3de76af0b5a8f16ecaab5ea252da8f",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/x8_20.png",
+          "bytes": 444,
+          "sha256": "9e6f799bb30b7d7e4823b3d03d071e2d17454d4c78116b5e5910574ddd64c575",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/x8_24.png",
+          "bytes": 535,
+          "sha256": "99751f962352979341255b9d8ad5355acae6914d1befd3f36940750bcf71ea23",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/x8_32.png",
+          "bytes": 731,
+          "sha256": "6bf8a68a2c678f72bc061657dfb423e4d4c1873c91ff43960e370d3cde15c61b",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/x8_40.png",
+          "bytes": 830,
+          "sha256": "27836c5bec5f539cb1b2621364bee4a88d5a5a58ab99e09a185c293e3033ab6d",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/x8_48.png",
+          "bytes": 1005,
+          "sha256": "718271cf23eba19fb829e8dbd67e536d095eb283f84b0e2bce9f31d217414653",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/x8_64.png",
+          "bytes": 1351,
+          "sha256": "0be5884b387aeac2de61b38fc00245fdd2a4b846fc1ee9ed974f78af708e803a",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/x8_80.png",
+          "bytes": 1720,
+          "sha256": "5188a69f834912548c59e4d0b110097e4d55cc1ff9666c1330bde998e8abf0d1",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/x8_96.png",
+          "bytes": 2082,
+          "sha256": "cc3aab35c3f4c348cd2308e33f48d0e4bb2a6562028d8e7f658c32e593e76d93",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/x8_16.png",
+          "bytes": 465,
+          "sha256": "4ef2eaadc0d8356b4396d57d298c3a5acb20a61ce794865c2cf94f810cf33376",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/x8_20.png",
+          "bytes": 569,
+          "sha256": "951cb54013aa2e88ef69d0dc07465095b1e3fae70c1131432c6d77e6446fbfb9",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/x8_24.png",
+          "bytes": 687,
+          "sha256": "bc9b2131c6b4daa351f0365438d25d043fc57fb83926324d0004c4638238a54a",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/x8_32.png",
+          "bytes": 861,
+          "sha256": "4c3efe1eb1ea56d83c1f22909dd93f41f0c61ed37275be49d5807874e219e4e6",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/x8_40.png",
+          "bytes": 940,
+          "sha256": "cf2397b0b5067f12b0dacc7e9d518eeef93beb8d210ec8f100f35c2671bdf09c",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/x8_48.png",
+          "bytes": 1097,
+          "sha256": "d5cfe458db1fb1062b49c3290b5cc05921068974e11bea3cfb4b67966e6ee653",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/x8_64.png",
+          "bytes": 1446,
+          "sha256": "651b8ca4fb6fdc6525d10f99a878082c601a7ae6c8904d12a637fb7a1a6b43fe",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/x8_80.png",
+          "bytes": 1827,
+          "sha256": "595dfda18906d839e51aee8d91da3c9af9a9d38035d33ab13572261e8a7191f8",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/x8_96.png",
+          "bytes": 2169,
+          "sha256": "33daeacdc4e519e20df84df7cbbd527eb8ef66712d5b6fadfd52bd412507151f",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "y8",
+      "primaryColor": "#607D8B",
+      "teamsForeground": "#000000",
+      "teamsContrast": 4.804,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/y8/color.png",
+          "bytes": 2730,
+          "sha256": "6b42f2da1e72a081e0c7013cfa05d6b01493bd2af0a3d107d14d583f2596fff2",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/y8/color.svg",
+          "bytes": 102629,
+          "sha256": "26bc5714ebbd99117dfe9a82ac1341b90c0ab9da62a4f70ca1a31f4168e13418",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/y8/outline.png",
+          "bytes": 780,
+          "sha256": "8f996904271d95c46d006f3c5322572da20d1f02a6235f7122823d0f7dc7ef54",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/y8.svg",
+          "bytes": 102547,
+          "sha256": "d8e5da63a6075c5544ec49584755d83236ed1049a070176f7dd0be6ab1b1a854",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/y8/manifest-fragment.json",
+          "sha256": "da84b98e687fb9594f86166d33c7b89bdae63bf08b7a6fc6d9bd671a4dac9506",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/y8_16.png",
+          "bytes": 369,
+          "sha256": "4d6582d40c921145af248db5b6d12f01862429e5715f47ba2b6ec8580e8c23b4",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/y8_20.png",
+          "bytes": 468,
+          "sha256": "824bdea865b9ffbe7eaa92e23c74202953c0fb60adbdccafcc2fd352ca074360",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/y8_24.png",
+          "bytes": 558,
+          "sha256": "1785c5d3cd09cec96b37e8868ddaf5cafc735224cc9aef3950fd0ee152f307a3",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/y8_32.png",
+          "bytes": 780,
+          "sha256": "8f996904271d95c46d006f3c5322572da20d1f02a6235f7122823d0f7dc7ef54",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/y8_40.png",
+          "bytes": 895,
+          "sha256": "6708356552644f3e661b3021ed16994b51721ed35b9cd2f17da1770ddf3762ab",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/y8_48.png",
+          "bytes": 1066,
+          "sha256": "ad416f219478b7b8fbf5c6560c445c74a7351bbab6398029704dc818172e956a",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/y8_64.png",
+          "bytes": 1448,
+          "sha256": "a6a1ad3089869ce9e18cac6b47c80615647e0babc337018d247c5186c9f20ca9",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/y8_80.png",
+          "bytes": 1825,
+          "sha256": "68ce4e9e08570422b88a8427d25e29e54ca28ed3d47a320e3d7961bf5eb23c81",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/y8_96.png",
+          "bytes": 2169,
+          "sha256": "c8c9961dc9962cc78157fc53f99886620a4b3e395ded27285464dd0e4ac1a6dd",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/y8_16.png",
+          "bytes": 475,
+          "sha256": "6f1822f55902f969f5ef2fd9fa7269fa817c8eb78698f9c3a0f19c23b598ea8e",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/y8_20.png",
+          "bytes": 591,
+          "sha256": "e873131447715ae6e5be4a0e986c6f577361cc10e9012f70a8b0325c7679ffed",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/y8_24.png",
+          "bytes": 711,
+          "sha256": "33fca85111a155d67a88400a0dd15261ca28e3142fd33dfe4812bdcbc19998f6",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/y8_32.png",
+          "bytes": 920,
+          "sha256": "e75ce415e3e994cd69d3e9453ad3ec1893c994135649ca9ff0a0b642ef7b6f04",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/y8_40.png",
+          "bytes": 1002,
+          "sha256": "cf1ff5a0c8cebc9c14bc6f8934912cc5b95ac468eb7efb7a79c761655c833c00",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/y8_48.png",
+          "bytes": 1151,
+          "sha256": "b6a35de275bf0fcc5232e4142cc4e1f32ec03635962cd9d085b03342cb00cab7",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/y8_64.png",
+          "bytes": 1541,
+          "sha256": "d493011cf0f92c5887ebcc45b0e51af758d0063f64a66f7cd128560764a24665",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/y8_80.png",
+          "bytes": 1939,
+          "sha256": "ada0e72f6556a995771cfb4d77b823a9e82691dfb4a630e6c50e79617ed8695c",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/y8_96.png",
+          "bytes": 2284,
+          "sha256": "fd30750410c614106668a609c70e7193f6a998765ae09300d6cf77baeeeb9026",
+          "width": 96,
+          "height": 96
+        }
+      }
+    },
+    {
+      "id": "z8",
+      "primaryColor": "#8E24AA",
+      "teamsForeground": "#ffffff",
+      "teamsContrast": 7.04,
+      "artifacts": {
+        "teamsColor": {
+          "path": "microsoft/teams/z8/color.png",
+          "bytes": 2486,
+          "sha256": "d1c7bcdb4db6760d696cbbafda6d44457d9f103d397d6ce0e35152d4f511cff9",
+          "width": 192,
+          "height": 192
+        },
+        "teamsColorSvg": {
+          "path": "microsoft/teams/z8/color.svg",
+          "bytes": 102629,
+          "sha256": "ea98dfac16383d171e17e39457ec1578a2aa9a24f6a07e39761bc56bab245387",
+          "width": 192,
+          "height": 192
+        },
+        "teamsOutline": {
+          "path": "microsoft/teams/z8/outline.png",
+          "bytes": 710,
+          "sha256": "3d8b427350167c6fb2e7fc6a605f603c46ee4ac96d417baf926d6837bf8f86f6",
+          "width": 32,
+          "height": 32
+        },
+        "monoSvg": {
+          "path": "microsoft/mono/z8.svg",
+          "bytes": 102547,
+          "sha256": "fc7f44e6fbdf753a129830929671229ca56517c43c935dd97771f619c772ba23",
+          "width": 192,
+          "height": 192
+        },
+        "manifestFragment": {
+          "path": "microsoft/teams/z8/manifest-fragment.json",
+          "sha256": "e15bcc47a5f038bdff62a798f840ea3ee740d775d190159c7fe21cdf78fa0658",
+          "bytes": 104
+        },
+        "monodark16": {
+          "path": "microsoft/mono/dark/z8_16.png",
+          "bytes": 352,
+          "sha256": "f3f44a327f5cb55f15f53f56d085e7190f90e1b3a71c60e3d808d9de0090dfa0",
+          "width": 16,
+          "height": 16
+        },
+        "monodark20": {
+          "path": "microsoft/mono/dark/z8_20.png",
+          "bytes": 439,
+          "sha256": "64eb5f852f02c7c3ea7c6d4f0435883beb456a4a96428b4736e3baf8c2d2ccff",
+          "width": 20,
+          "height": 20
+        },
+        "monodark24": {
+          "path": "microsoft/mono/dark/z8_24.png",
+          "bytes": 520,
+          "sha256": "d12820ad1cbc75298fbfc1f837999ba3063adf8a80e106f6b3e118ba10521e63",
+          "width": 24,
+          "height": 24
+        },
+        "monodark32": {
+          "path": "microsoft/mono/dark/z8_32.png",
+          "bytes": 710,
+          "sha256": "3d8b427350167c6fb2e7fc6a605f603c46ee4ac96d417baf926d6837bf8f86f6",
+          "width": 32,
+          "height": 32
+        },
+        "monodark40": {
+          "path": "microsoft/mono/dark/z8_40.png",
+          "bytes": 797,
+          "sha256": "2a3db4f8b8b229166231e96e55334c6e1fe76909f5f97bca70b0c6f40a3ac9cc",
+          "width": 40,
+          "height": 40
+        },
+        "monodark48": {
+          "path": "microsoft/mono/dark/z8_48.png",
+          "bytes": 931,
+          "sha256": "4dfd4c674fe05e3aeab0d43426982c2d564f456f1212908882c17b0865a96b26",
+          "width": 48,
+          "height": 48
+        },
+        "monodark64": {
+          "path": "microsoft/mono/dark/z8_64.png",
+          "bytes": 1267,
+          "sha256": "d66fb252ab7659a17387833be239c88f204c7586a35a31634d2d136d572c23bf",
+          "width": 64,
+          "height": 64
+        },
+        "monodark80": {
+          "path": "microsoft/mono/dark/z8_80.png",
+          "bytes": 1581,
+          "sha256": "cafc2bc17ddcc948172434b419be91db53d8e9d4888c32cfcd6dc4570c9a67aa",
+          "width": 80,
+          "height": 80
+        },
+        "monodark96": {
+          "path": "microsoft/mono/dark/z8_96.png",
+          "bytes": 1880,
+          "sha256": "cc95c0b8297c3a1e261d399d2717a8d5e7de5d7cca8a63b36b3fd11a2007317f",
+          "width": 96,
+          "height": 96
+        },
+        "monolight16": {
+          "path": "microsoft/mono/light/z8_16.png",
+          "bytes": 449,
+          "sha256": "1f52b825f278b2b499d44a40faedb9bc8b6df4f5addf555b12fb9bdeb6bc7399",
+          "width": 16,
+          "height": 16
+        },
+        "monolight20": {
+          "path": "microsoft/mono/light/z8_20.png",
+          "bytes": 562,
+          "sha256": "11760a2c153454e2e9722de3203eac04537b36bb5920b55b8bf65a9d01fc5450",
+          "width": 20,
+          "height": 20
+        },
+        "monolight24": {
+          "path": "microsoft/mono/light/z8_24.png",
+          "bytes": 669,
+          "sha256": "dc5127165c7ab9da0615479a4f63a359e40e8da48fdd51196e93b54b5f0b0309",
+          "width": 24,
+          "height": 24
+        },
+        "monolight32": {
+          "path": "microsoft/mono/light/z8_32.png",
+          "bytes": 835,
+          "sha256": "c348e4e561aba7a9bc8e485f890573ee1c2dce12284a7926a554bb462693c9ca",
+          "width": 32,
+          "height": 32
+        },
+        "monolight40": {
+          "path": "microsoft/mono/light/z8_40.png",
+          "bytes": 904,
+          "sha256": "da5305e41286def0f53186da26d5d49c05805535e74fb33ff1a537ce9f8707dd",
+          "width": 40,
+          "height": 40
+        },
+        "monolight48": {
+          "path": "microsoft/mono/light/z8_48.png",
+          "bytes": 1001,
+          "sha256": "6dbeb5134a89518c0a3e473aab7706d80efcbf2d6ae8ffb166a6f336f1683ade",
+          "width": 48,
+          "height": 48
+        },
+        "monolight64": {
+          "path": "microsoft/mono/light/z8_64.png",
+          "bytes": 1369,
+          "sha256": "9931041a9edac6a8379d34b746c659e46fbc46f0e1032d97aab2f7a6854a2520",
+          "width": 64,
+          "height": 64
+        },
+        "monolight80": {
+          "path": "microsoft/mono/light/z8_80.png",
+          "bytes": 1681,
+          "sha256": "abd317ea7b8b36d7a468ed8fdb26a90166a3733b7c4368974f9d1d0785a4c179",
+          "width": 80,
+          "height": 80
+        },
+        "monolight96": {
+          "path": "microsoft/mono/light/z8_96.png",
+          "bytes": 2013,
+          "sha256": "522334d4f128656744272d8fc95916c9686f9319e614e31f9c99575bf3a04f67",
+          "width": 96,
+          "height": 96
+        }
+      }
+    }
+  ]
+}

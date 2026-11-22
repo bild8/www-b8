@@ -20,6 +20,33 @@ Local copies are only for offline surfaces or tests. When a repository needs a
 local copy, it must document the selected `{id}` and keep that copy aligned with
 this repository.
 
+Microsoft app packages are an additional required-copy exception: Teams icons
+must be included in the submitted package. Copy only the selected brand's
+generated exports and record their source commit and SHA-256 values. See
+[Microsoft integration](assets/8/MICROSOFT-INTEGRATION.md).
+
+## Reproducible Asset Build
+
+Use Node.js `24.19.0` (see `.nvmrc`), then run:
+
+```sh
+npm ci --ignore-scripts
+npm run build
+npm run check
+npm test
+```
+
+`npm run check` regenerates in memory and rejects stale files without repairing
+them. The renderer and font are pinned; no installed system font is used.
+The SVGs embed the licensed Hanken Grotesk Black font and keep editable text.
+Consumers whose SVG renderer does not support embedded fonts must use PNGs.
+
+Microsoft-specific exports and their hashes are listed separately in
+[assets/8/microsoft/manifest.json](assets/8/microsoft/manifest.json).
+The [Microsoft integration guide](assets/8/MICROSOFT-INTEGRATION.md) distinguishes
+brand colors from theme colors, Teams app icons, SPFx toolbox icons, and Office
+ribbon command icons.
+
 ## Repository Style Guide
 
 Dieses Repository dient als Style-Referenz fuer bild8/software8 Repositories,
@@ -37,6 +64,10 @@ show_downloads: false
 ```
 
 This repository is not open source. All rights are reserved.
+
+The vendored Hanken Grotesk font is a third-party exception licensed under the
+SIL Open Font License 1.1; see [its license](assets/8/fonts/OFL.txt).
+This font license does not grant rights to the logos.
 
 The logos, marks, icons, names, and other brand assets in this repository belong
 to their respective owners. Their presence here does not grant permission to
