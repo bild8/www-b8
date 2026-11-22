@@ -3,6 +3,24 @@
 This file embeds the current icon outputs for visual review. The machine-readable
 source of truth is [icon-spec.v1.json](icon-spec.v1.json).
 
+The catalog now renders with the pinned Hanken Grotesk font (including its
+actual g, r and l glyphs). Original reference files are preserved separately.
+Use PNGs if your SVG viewer does not support embedded fonts.
+
+## Microsoft Variants
+
+[Microsoft integration rules](MICROSOFT-INTEGRATION.md) explain the distinct
+roles of these exports. The following preview runs a8-z8 from left to right,
+top to bottom. Each color icon has monochrome 32 px examples on light and dark
+surfaces directly below it.
+
+<img src="./microsoft/preview.png" width="600" height="560" alt="a8-z8 Teams color exports and monochrome brand marks on light and dark backgrounds">
+
+Automated tests verify dimensions, full-bleed square backgrounds, the 120 px
+safe area, foreground/background contrast, and white transparent outlines.
+Actual integration still needs host checks in Teams/SPFx/Office for the selected
+brand, including keyboard focus, screen-reader naming and Windows forced colors.
+
 ## Full Preview
 
 <img src="./preview_a-z8_colored.png" width="770" height="440" alt="a8 to z8 preview">

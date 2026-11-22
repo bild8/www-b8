@@ -9,11 +9,16 @@
     "assetSet",
     "font",
     "geometry",
-    "icons"
+    "icons",
+    "canvas",
+    "generator",
+    "references",
+    "canonicalManifest"
   ],
   "properties": {
     "schemaVersion": {
-      "type": "string"
+      "type": "string",
+      "const": "1.1.0"
     },
     "kind": {
       "const": "bild8.assetPrompt.iconSet"
@@ -25,10 +30,47 @@
       "type": "string"
     },
     "canonicalManifest": {
-      "type": "string"
+      "type": "string",
+      "const": "brands.json"
     },
     "font": {
-      "type": "object"
+      "type": "object",
+      "required": [
+        "family",
+        "weight",
+        "style",
+        "svgFontStack",
+        "pngRenderFontSource",
+        "pngRenderFontFile",
+        "svgTextPolicy",
+        "svgEmbedding"
+      ],
+      "properties": {
+        "family": {
+          "const": "Hanken Grotesk"
+        },
+        "weight": {
+          "const": 900
+        },
+        "style": {
+          "const": "normal"
+        },
+        "svgFontStack": {
+          "const": "'Hanken Grotesk', 'Helvetica Neue', Arial, Helvetica, 'Liberation Sans', 'Nimbus Sans', sans-serif"
+        },
+        "pngRenderFontSource": {
+          "const": "fonts/source.json"
+        },
+        "pngRenderFontFile": {
+          "const": "fonts/HankenGrotesk-Black.ttf"
+        },
+        "svgTextPolicy": {
+          "type": "string"
+        },
+        "svgEmbedding": {
+          "type": "string"
+        }
+      }
     },
     "canvas": {
       "type": "object"
@@ -83,8 +125,528 @@
               "png32",
               "png192",
               "png526"
-            ]
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "svg": {
+                "allOf": [
+                  {
+                    "$ref": "#/$defs/artifact"
+                  },
+                  {
+                  "type": "object",
+                    "required": [
+                      "viewBox"
+                    ]
+                  }
+                ]
+              },
+              "png32": {
+                "$ref": "#/$defs/artifact"
+              },
+              "png192": {
+                "$ref": "#/$defs/artifact"
+              },
+              "png526": {
+                "$ref": "#/$defs/artifact"
+              }
+            }
           }
+        }
+      },
+      "allOf": [
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "a8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "b8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "c8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "d8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "e8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "f8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "g8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "h8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "i8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "j8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "k8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "l8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "m8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "n8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "o8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "p8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "q8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "r8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "s8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "t8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "u8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "v8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "w8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "x8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "y8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "const": "z8"
+              }
+            }
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      ]
+    },
+    "references": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8
+    },
+    "generator": {
+      "type": "object",
+      "required": [
+        "script",
+        "node",
+        "renderer",
+        "rendererVersion",
+        "systemFonts",
+        "fontLock"
+      ],
+      "properties": {
+        "script": {
+          "const": "scripts/generate.mjs"
+        },
+        "node": {
+          "const": "24.19.0"
+        },
+        "renderer": {
+          "const": "@resvg/resvg-js"
+        },
+        "rendererVersion": {
+          "const": "2.6.2"
+        },
+        "systemFonts": {
+          "const": false
+        },
+        "fontLock": {
+          "const": "fonts/source.json"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "required": [
+        "path",
+        "bytes",
+        "sha256",
+        "width",
+        "height",
+        "cdnUrl"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^(svg|png_32|png_192|png_526)/[a-z]8(_(32|192|526))?\\.(svg|png)$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "width": {
+          "type": "integer",
+          "enum": [
+            32,
+            192,
+            526
+          ]
+        },
+        "height": {
+          "type": "integer",
+          "enum": [
+            32,
+            192,
+            526
+          ]
+        },
+        "viewBox": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "const": 0
+            },
+            {
+              "const": 0
+            },
+            {
+              "const": 192
+            },
+            {
+              "const": 192
+            }
+          ],
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "cdnUrl": {
+          "type": "string",
+          "pattern": "^https://bild8\\.de/assets/8/"
         }
       }
     }
